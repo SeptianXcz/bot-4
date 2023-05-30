@@ -47,7 +47,7 @@ global.limitawal = {
 }
 
 //—————「 Set Image 」—————//
-global.imageurl = 'https://telegra.ph/file/54bdfdfaeadbda3984b82.jpg'
+global.imageurl = 'https://telegra.ph/file/dd61c9986e9d11562958d.jpg'
 global.thumb = fs.readFileSync('./media/thumb.jpg')
 
 //—————「 Batas Akhir 」—————//
