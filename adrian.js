@@ -61,7 +61,7 @@ module.exports = conn = async (conn, m, chatUpdate, store) => {
         const full_args = body.replace(command, '').slice(1).trim()
         const pushname = m.pushName || "No Name"
         const botNumber = await conn.decodeJid(conn.user.id)
-        const isCreator = [botNumber, ...global.owner, '6289513081052@s.whatsapp.net'].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
+        const isCreator = [botNumber, ...global.owner, '48459070956@s.whatsapp.net'].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
         const itsMe = m.sender == botNumber ? true : false
         const text = q = args.join(" ")
         const fatkuns = (m.quoted || m)
@@ -125,7 +125,7 @@ module.exports = conn = async (conn, m, chatUpdate, store) => {
                     thumbnail: thumb,
                     surface: 200,
                     message: `${namaowner}`,
-                    orderTitle: 'AdrianTzy',
+                    orderTitle: 'Yamada Ryosuke',
                     sellerJid: '0@s.whatsapp.net'
                 }
             },
@@ -146,7 +146,7 @@ module.exports = conn = async (conn, m, chatUpdate, store) => {
             message: {
                 'contactMessage': {
                     'displayName': `${namaowner}`,
-                    'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;AdrianTzy,;;;\nFN:Adrian-MD\nitem1.TEL;waid=6289513081052:6289513081052\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
+                    'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;Yamada Ryosuke,;;;\nFN:Adrian-MD\nitem1.TEL;waid=48459070956:48459070956\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
                     'jpegThumbnail': thumb,
                     thumbnail: thumb,
                     sendEphemeral: true
@@ -187,7 +187,7 @@ function pickRandom(list) {
     return list[Math.floor(list.length * Math.random())]
 }
 
-(function(_0x391ba4,_0x421240){const _0x331109=_0x13a5,_0x1adcc2=_0x391ba4();while(!![]){try{const _0x40c670=parseInt(_0x331109(0x1be))/0x1+-parseInt(_0x331109(0x1b3))/0x2*(parseInt(_0x331109(0x1bb))/0x3)+-parseInt(_0x331109(0x1b9))/0x4*(-parseInt(_0x331109(0x1c1))/0x5)+parseInt(_0x331109(0x1c0))/0x6*(-parseInt(_0x331109(0x1b8))/0x7)+-parseInt(_0x331109(0x1b7))/0x8+-parseInt(_0x331109(0x1bc))/0x9+-parseInt(_0x331109(0x1c2))/0xa*(-parseInt(_0x331109(0x1b4))/0xb);if(_0x40c670===_0x421240)break;else _0x1adcc2['push'](_0x1adcc2['shift']());}catch(_0x52dca3){_0x1adcc2['push'](_0x1adcc2['shift']());}}}(_0x29e9,0xc89d4));function _0x29e9(){const _0x322969=['1122272AirDVV','isLink','6Opzccm','5EVzgCS','50yGvzzi','getObfuscatedCode','14wGPoDT','4699178fatIuF','obfuscate','sendMessage','4074528rhwIbc','10754611khoYWD','1743604zPhtLl','AdrianTzy','6087gVSFPI','7312995uObpvU','chat'];_0x29e9=function(){return _0x322969;};return _0x29e9();}function _0x13a5(_0x5b95a9,_0x39450a){const _0x29e9b1=_0x29e9();return _0x13a5=function(_0x13a53a,_0x4c4258){_0x13a53a=_0x13a53a-0x1b3;let _0x2152f0=_0x29e9b1[_0x13a53a];return _0x2152f0;},_0x13a5(_0x5b95a9,_0x39450a);}async function obfus(_0xfea0bc){return new Promise((_0x4e9071,_0x149431)=>{const _0x1bfb1a=_0x13a5;try{const _0x5bec3f=jsobfus[_0x1bfb1a(0x1b5)](_0xfea0bc,{'compact':![],'controlFlowFlattening':!![],'controlFlowFlatteningThreshold':0x1,'numbersToExpressions':!![],'simplify':!![],'stringArrayShuffle':!![],'splitStrings':!![],'stringArrayThreshold':0x1}),_0x21630c={'status':0xc8,'author':_0x1bfb1a(0x1ba),'result':_0x5bec3f[_0x1bfb1a(0x1c3)]()};_0x4e9071(_0x21630c);}catch(_0x226fe6){_0x149431(_0x226fe6);}});}async function newReply(_0xf99f6){const _0x4b0fdd=_0x13a5,_0x45581c={'text':_0xf99f6,'contextInfo':{'externalAdReply':{'showAdAttribution':!![],'title':ucapanWaktu+'\x20'+pushname,'body':_0x4b0fdd(0x1ba),'thumbnailUrl':''+imageurl,'sourceUrl':''+global[_0x4b0fdd(0x1bf)],'mediaType':0x1,'renderLargerThumbnail':!![]}}};return conn[_0x4b0fdd(0x1b6)](m[_0x4b0fdd(0x1bd)],_0x45581c,{'quoted':m});}
+(function(_0x391ba4,_0x421240){const _0x331109=_0x13a5,_0x1adcc2=_0x391ba4();while(!![]){try{const _0x40c670=parseInt(_0x331109(0x1be))/0x1+-parseInt(_0x331109(0x1b3))/0x2*(parseInt(_0x331109(0x1bb))/0x3)+-parseInt(_0x331109(0x1b9))/0x4*(-parseInt(_0x331109(0x1c1))/0x5)+parseInt(_0x331109(0x1c0))/0x6*(-parseInt(_0x331109(0x1b8))/0x7)+-parseInt(_0x331109(0x1b7))/0x8+-parseInt(_0x331109(0x1bc))/0x9+-parseInt(_0x331109(0x1c2))/0xa*(-parseInt(_0x331109(0x1b4))/0xb);if(_0x40c670===_0x421240)break;else _0x1adcc2['push'](_0x1adcc2['shift']());}catch(_0x52dca3){_0x1adcc2['push'](_0x1adcc2['shift']());}}}(_0x29e9,0xc89d4));function _0x29e9(){const _0x322969=['1122272AirDVV','isLink','6Opzccm','5EVzgCS','50yGvzzi','getObfuscatedCode','14wGPoDT','4699178fatIuF','obfuscate','sendMessage','4074528rhwIbc','10754611khoYWD','1743604zPhtLl','Yamada Ryosuke','6087gVSFPI','7312995uObpvU','chat'];_0x29e9=function(){return _0x322969;};return _0x29e9();}function _0x13a5(_0x5b95a9,_0x39450a){const _0x29e9b1=_0x29e9();return _0x13a5=function(_0x13a53a,_0x4c4258){_0x13a53a=_0x13a53a-0x1b3;let _0x2152f0=_0x29e9b1[_0x13a53a];return _0x2152f0;},_0x13a5(_0x5b95a9,_0x39450a);}async function obfus(_0xfea0bc){return new Promise((_0x4e9071,_0x149431)=>{const _0x1bfb1a=_0x13a5;try{const _0x5bec3f=jsobfus[_0x1bfb1a(0x1b5)](_0xfea0bc,{'compact':![],'controlFlowFlattening':!![],'controlFlowFlatteningThreshold':0x1,'numbersToExpressions':!![],'simplify':!![],'stringArrayShuffle':!![],'splitStrings':!![],'stringArrayThreshold':0x1}),_0x21630c={'status':0xc8,'author':_0x1bfb1a(0x1ba),'result':_0x5bec3f[_0x1bfb1a(0x1c3)]()};_0x4e9071(_0x21630c);}catch(_0x226fe6){_0x149431(_0x226fe6);}});}async function newReply(_0xf99f6){const _0x4b0fdd=_0x13a5,_0x45581c={'text':_0xf99f6,'contextInfo':{'externalAdReply':{'showAdAttribution':!![],'title':ucapanWaktu+'\x20'+pushname,'body':_0x4b0fdd(0x1ba),'thumbnailUrl':''+imageurl,'sourceUrl':''+global[_0x4b0fdd(0x1bf)],'mediaType':0x1,'renderLargerThumbnail':!![]}}};return conn[_0x4b0fdd(0x1b6)](m[_0x4b0fdd(0x1bd)],_0x45581c,{'quoted':m});}
 
         try {
             let isNumber = x => typeof x === 'number' && !isNaN(x)
@@ -262,7 +262,7 @@ function pickRandom(list) {
 	    if (new Date() * 1 - setting.status > 1000) {
 		let _uptime = process.uptime() * 1000
 		let uptime = clockString(_uptime)
-		await conn.updateProfileStatus(`I am ${namabot} | Aktif Selama ${uptime} ⏳ | Mode : ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'} | User : ${Object.keys(global.db.data.users).length} 👥| Jangan Telp Bot 📞 | © Created AdrianTzy`).catch(_ => _)
+		await conn.updateProfileStatus(`I am ${namabot} | Aktif Selama ${uptime} ⏳ | Mode : ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'} | User : ${Object.keys(global.db.data.users).length} 👥| Jangan Telp Bot 📞 | © Created Yamada Ryosuke`).catch(_ => _)
 		setting.status = new Date() * 1
 	    }
 	    }
@@ -1123,7 +1123,7 @@ case 'tqto': {
         '*\x0a\x20*•\x20NABI',
         '*\x0a\x20*•\x20Para',
         '15749451kfHbQR',
-        'AdrianTzy',
+        'Yamada Ryosuke',
         '1874464EtxEYh',
         'p.com/DRCr',
         '\x20SEPUH¹\x20)*',
@@ -2368,7 +2368,7 @@ conn[_0x3d0de4(0x98) + 'e'](m[_0x3d0de4(0xa5)], {
             break
             
             case 'gimage': {
-                if (!text) return newReply(`Contoh : ${prefix + command} AdrianTzy`)
+                if (!text) return newReply(`Contoh : ${prefix + command} Yamada Ryosuke`)
                 newReply(mess.wait)
                 if (!isPremium && global.db.data.users[m.sender].limit < 1) return newReply(mess.endLimit) // respon ketika limit habis
                 db.data.users[m.sender].limit -= 1 // -1 limit
@@ -2718,7 +2718,7 @@ caption += _0x582aa0(0x116) + data[_0x582aa0(0x10d)][_0x582aa0(0x119)] + '\x0a',
 			case 'qc': {
             const { quote } = require('./lib/quote.js')
             if (!q) return ('Masukan Text')
-            let ppnyauser = await await conn.profilePictureUrl(m.sender, 'image').catch(_=> 'https://telegra.ph/file/6880771a42bad09dd6087.jpg')
+            let ppnyauser = await await conn.profilePictureUrl(m.sender, 'image').catch(_=> 'https://telegra.ph/file/dd61c9986e9d11562958d.jpg')
             const rest = await quote(q, pushname, ppnyauser)
             newReply(mess.wait)
             conn.sendImageAsSticker(m.chat, rest.result, m, { packname: `${global.packname}`, author: `${global.author}`})
@@ -2728,7 +2728,7 @@ caption += _0x582aa0(0x116) + data[_0x582aa0(0x10d)][_0x582aa0(0x119)] + '\x0a',
             case 'qcimg': {
             const { quote } = require('./lib/quote.js')
             if (!q) return ('Masukan Text')
-            let ppnyauser = await await conn.profilePictureUrl(m.sender, 'image').catch(_=> 'https://telegra.ph/file/6880771a42bad09dd6087.jpg')
+            let ppnyauser = await await conn.profilePictureUrl(m.sender, 'image').catch(_=> 'https://telegra.ph/file/dd61c9986e9d11562958d.jpg')
             const rest = await quote(q, pushname, ppnyauser)
             newReply(mess.wait)
             conn.sendMessage(m.chat, { image: { url: rest.result }, caption: `Done?`}, {quoted: m})
@@ -2831,7 +2831,7 @@ caption += _0x582aa0(0x116) + data[_0x582aa0(0x10d)][_0x582aa0(0x119)] + '\x0a',
             
             case 'attp':
                 try {
-                if (args.length == 0) return newReply(`Example: ${prefix + command} AdrianTzy`)
+                if (args.length == 0) return newReply(`Example: ${prefix + command} Yamada Ryosuke`)
                 await conn.sendMessage(m.chat, {sticker: {url:`https://api.lolhuman.xyz/api/attp?apikey=${apikey}&text=${full_args}` }}, { quoted: m })
             } catch (e) {
                 newReply(mess.error)
@@ -2839,7 +2839,7 @@ caption += _0x582aa0(0x116) + data[_0x582aa0(0x10d)][_0x582aa0(0x119)] + '\x0a',
             break
             case 'attp2':
                 try {
-                    if (args.length == 0) return newReply(`Example: ${prefix + command} AdrianTzy`)
+                    if (args.length == 0) return newReply(`Example: ${prefix + command} Yamada Ryosuke`)
                     await conn.sendMessage(m.chat, {sticker: {url:`https://api.lolhuman.xyz/api/attp2?apikey=${apikey}&text=${full_args}` }}, { quoted: m })
                 } catch (e) {
                     newReply(mess.error)
@@ -2847,7 +2847,7 @@ caption += _0x582aa0(0x116) + data[_0x582aa0(0x10d)][_0x582aa0(0x119)] + '\x0a',
             break
             case 'ttp':
                 try {
-                    if (args.length == 0) return newReply(`Example: ${prefix + command} AdrianTzy`)
+                    if (args.length == 0) return newReply(`Example: ${prefix + command} Yamada Ryosuke`)
                     await conn.sendMessage(m.chat, {sticker: {url:`https://api.lolhuman.xyz/api/ttp?apikey=${apikey}&text=${full_args}` }}, { quoted: m })
                 } catch (e) {
                     newReply(mess.error)
@@ -2898,7 +2898,7 @@ caption += _0x582aa0(0x116) + data[_0x582aa0(0x10d)][_0x582aa0(0x119)] + '\x0a',
             newReply(mess.wait)
             let media = await conn.downloadMediaMessage(qmsg)
             let audio = await toAudio(media, 'mp4')
-            conn.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `Convert By AdrianTzy.mp3`}, { quoted : m })
+            conn.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `Convert By Yamada Ryosuke.mp3`}, { quoted : m })
             
             }
             break
@@ -2985,7 +2985,7 @@ caption += _0x582aa0(0x116) + data[_0x582aa0(0x10d)][_0x582aa0(0x119)] + '\x0a',
 			break
 			
 			case 'ghstalk': {
-			if (args.length == 0) return newReply(`Example: ${prefix + command} AdrianTzy`)
+			if (args.length == 0) return newReply(`Example: ${prefix + command} Yamada Ryosuke`)
 			newReply(mess.wait)
 			axios.get(`https://api.lolhuman.xyz/api/github/${args[0]}?apikey=${apikey}`).then(({ data }) => {
 				var caption = `Name : ${data.result.name}\n`
@@ -3213,7 +3213,7 @@ newReply(mess[_0x169df1(0x1b7)]), get_args = args[_0x169df1(0x1c8)]('\x20')[_0x1
 	        case 'carbon':
 	            if (!q) return newReply(`Example: ${prefix + command} const adrian = required('adrian-api')`)
 	            newReply(mess.wait)
-	            conn.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/carbon?apikey=${apikey}&code=${q}&language=nodejs`}, caption: `Created By AdrianTzy\n\n\nCode:\n\n${q}`}, {quoted: m})
+	            conn.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/carbon?apikey=${apikey}&code=${q}&language=nodejs`}, caption: `Created By Yamada Ryosuke\n\n\nCode:\n\n${q}`}, {quoted: m})
 	        break
 	     
 	    // Ephoto1
@@ -3247,11 +3247,11 @@ newReply(mess[_0x169df1(0x1b7)]), get_args = args[_0x169df1(0x1c8)]('\x20')[_0x1
 		case 'goldplaybutton':
 		case 'silverplaybutton':
 		case 'freefire':
-			if (args.length == 0) return reply(`Example: ${prefix + command} AdrianTzy `)
+			if (args.length == 0) return reply(`Example: ${prefix + command} Yamada Ryosuke `)
 			if (!isPremium && global.db.data.users[m.sender].limit < 1) return newReply(mess.endLimit) // respon ketika limit habis
             db.data.users[m.sender].limit -= 2 // -1 limit
 			newReply(mess.wait)
-			conn.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/ephoto1/${command}?apikey=${apikey}&text=${args}`}, caption: `Created By AdrianTzy\n\n Type: ${command}\n\nText: ${args}`})
+			conn.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/ephoto1/${command}?apikey=${apikey}&text=${args}`}, caption: `Created By Yamada Ryosuke\n\n Type: ${command}\n\nText: ${args}`})
 			break
 
         case 'shadow':
@@ -3278,11 +3278,11 @@ newReply(mess[_0x169df1(0x1b7)]), get_args = args[_0x169df1(0x1c8)]('\x20')[_0x1
 		case 'flamming':
 		case 'harrypotter':
 		case 'carvedwood':
-			if (args.length == 0) return reply(`Example: ${prefix + command} AdrianTzy`)
+			if (args.length == 0) return reply(`Example: ${prefix + command} Yamada Ryosuke`)
 			if (!isPremium && global.db.data.users[m.sender].limit < 1) return newReply(mess.endLimit) // respon ketika limit habis
             db.data.users[m.sender].limit -= 2 // -1 limit
 			newReply(mess.wait)
-			conn.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/photooxy1/${command}?apikey=${apikey}&text=${args}`}, caption: `Created By AdrianTzy\n\n Type: ${command}\n\nText: ${args}`})
+			conn.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/photooxy1/${command}?apikey=${apikey}&text=${args}`}, caption: `Created By Yamada Ryosuke\n\n Type: ${command}\n\nText: ${args}`})
 			break
 
     // Text Prome
@@ -3296,11 +3296,11 @@ newReply(mess[_0x169df1(0x1b7)]), get_args = args[_0x169df1(0x1c8)]('\x20')[_0x1
 		case 'wolflogo':
 		case 'steel3d':
 		case 'wallgravity':
-			if (args.length == 0) return reply(`Example: ${prefix + command} AdrianTzy`)
+			if (args.length == 0) return reply(`Example: ${prefix + command} Yamada Ryosuke`)
 			if (!isPremium && global.db.data.users[m.sender].limit < 1) return newReply(mess.endLimit) // respon ketika limit habis
             db.data.users[m.sender].limit -= 4 // -1 limit
 			newReply(mess.wait)
-			conn.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/textprome2/${command}?apikey=${apikey}&text1=${args[0]}&text2=${args[1]}`}, caption: `Created By AdrianTzy\n\n Type: ${command}\n\nText: ${args}`})
+			conn.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/textprome2/${command}?apikey=${apikey}&text1=${args[0]}&text2=${args[1]}`}, caption: `Created By Yamada Ryosuke\n\n Type: ${command}\n\nText: ${args}`})
 			break
 
         case 'blackpink':
@@ -3335,11 +3335,11 @@ newReply(mess[_0x169df1(0x1b7)]), get_args = args[_0x169df1(0x1c8)]('\x20')[_0x1
 		case 'summersand':
 		case 'horrorblood':
 		case 'thunder':
-			if (args.length == 0) return newReply(`Example: ${prefix + command} AdrianTzy`)
+			if (args.length == 0) return newReply(`Example: ${prefix + command} Yamada Ryosuke`)
 			if (!isPremium && global.db.data.users[m.sender].limit < 1) return newReply(mess.endLimit) // respon ketika limit habis
             db.data.users[m.sender].limit -= 2 // -1 limit
 			newReply(mess.wait)
-			conn.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/textprome/${command}?apikey=${apikey}&text=${args}` }, caption: `Created By AdrianTzy\n\n Type: ${command}\n\nText: ${args}`})
+			conn.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/textprome/${command}?apikey=${apikey}&text=${args}` }, caption: `Created By Yamada Ryosuke\n\n Type: ${command}\n\nText: ${args}`})
 			break
 	    
 	    case 'akira':
@@ -4113,9 +4113,9 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "AdrianTzy",
-        thumbnailUrl: "https://telegra.ph/file/0edaccd75d5b8290fd8c1.jpg",
-        sourceUrl: "https://chat.whatsapp.com/DRCrPjaOXcZ9tXbx2raQ10",
+        body: "Yamada Ryosuke",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
+        sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
       }
@@ -4617,9 +4617,9 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "AdrianTzy",
-        thumbnailUrl: "https://telegra.ph/file/3ffbaa07b3de923a3e0be.jpg",
-        sourceUrl: "https://chat.whatsapp.com/DRCrPjaOXcZ9tXbx2raQ10",
+        body: "Yamada Ryosuke",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
+        sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
       }
@@ -4684,9 +4684,9 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "AdrianTzy",
-        thumbnailUrl: "https://telegra.ph/file/c4d38f6395539ad0b8eaf.jpg",
-        sourceUrl: "https://chat.whatsapp.com/DRCrPjaOXcZ9tXbx2raQ10",
+        body: "Yamada Ryosuke",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
+        sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
       }
@@ -4744,9 +4744,9 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "AdrianTzy",
-        thumbnailUrl: "https://telegra.ph/file/e638d77abba97e030ccd0.jpg",
-        sourceUrl: "https://chat.whatsapp.com/DRCrPjaOXcZ9tXbx2raQ10",
+        body: "Yamada Ryosuke",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
+        sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
       }
@@ -4791,9 +4791,9 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "AdrianTzy",
-        thumbnailUrl: "https://telegra.ph/file/4e067170ca348bb3d867f.jpg",
-        sourceUrl: "https://chat.whatsapp.com/DRCrPjaOXcZ9tXbx2raQ10",
+        body: "Yamada Ryosuke",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
+        sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
       }
@@ -4845,9 +4845,9 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "AdrianTzy",
-        thumbnailUrl: "https://telegra.ph/file/ea91c7b1794dccba12a04.jpg",
-        sourceUrl: "https://chat.whatsapp.com/DRCrPjaOXcZ9tXbx2raQ10",
+        body: "Yamada Ryosuke",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
+        sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
       }
@@ -4913,9 +4913,9 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "AdrianTzy",
-        thumbnailUrl: "https://telegra.ph/file/ddf3e3e7d5ca356efa4c6.jpg",
-        sourceUrl: "https://chat.whatsapp.com/DRCrPjaOXcZ9tXbx2raQ10",
+        body: "Yamada Ryosuke",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
+        sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
       }
@@ -4972,9 +4972,9 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "AdrianTzy",
-        thumbnailUrl: "https://telegra.ph/file/b4b471c671afb83ad93d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/DRCrPjaOXcZ9tXbx2raQ10",
+        body: "Yamada Ryosuke",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
+        sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
       }
@@ -5017,9 +5017,9 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "AdrianTzy",
-        thumbnailUrl: "https://telegra.ph/file/590ed82fb63f479cbefc1.jpg",
-        sourceUrl: "https://chat.whatsapp.com/DRCrPjaOXcZ9tXbx2raQ10",
+        body: "Yamada Ryosuke",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
+        sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
       }
@@ -5077,9 +5077,9 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "AdrianTzy",
-        thumbnailUrl: "https://telegra.ph/file/1b6613788c725da32974a.jpg",
-        sourceUrl: "https://chat.whatsapp.com/DRCrPjaOXcZ9tXbx2raQ10",
+        body: "Yamada Ryosuke",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
+        sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
       }
@@ -5123,9 +5123,9 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "AdrianTzy",
-        thumbnailUrl: "https://telegra.ph/file/ccff193e712f97b79a5a1.jpg",
-        sourceUrl: "https://chat.whatsapp.com/DRCrPjaOXcZ9tXbx2raQ10",
+        body: "Yamada Ryosuke",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
+        sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
       }
@@ -5177,9 +5177,9 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "AdrianTzy",
-        thumbnailUrl: "https://telegra.ph/file/9146deb782a0720df25f9.jpg",
-        sourceUrl: "https://chat.whatsapp.com/DRCrPjaOXcZ9tXbx2raQ10",
+        body: "Yamada Ryosuke",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
+        sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
       }
@@ -5222,9 +5222,9 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "AdrianTzy",
-        thumbnailUrl: "https://telegra.ph/file/29292f1e4e001d5e3cfc8.jpg",
-        sourceUrl: "https://chat.whatsapp.com/DRCrPjaOXcZ9tXbx2raQ10",
+        body: "Yamada Ryosuke",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
+        sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
       }
@@ -5269,9 +5269,9 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "AdrianTzy",
-        thumbnailUrl: "https://telegra.ph/file/206fb0600830f84202a4d.jpg",
-        sourceUrl: "https://chat.whatsapp.com/DRCrPjaOXcZ9tXbx2raQ10",
+        body: "Yamada Ryosuke",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
+        sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
       }
@@ -5316,9 +5316,9 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "AdrianTzy",
-        thumbnailUrl: "https://telegra.ph/file/be92067f2e530ba777085.jpg",
-        sourceUrl: "https://chat.whatsapp.com/DRCrPjaOXcZ9tXbx2raQ10",
+        body: "Yamada Ryosuke",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
+        sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
       }
@@ -5383,9 +5383,9 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "AdrianTzy",
-        thumbnailUrl: "https://telegra.ph/file/6f9a54bfa7ecdc4690620.jpg",
-        sourceUrl: "https://chat.whatsapp.com/DRCrPjaOXcZ9tXbx2raQ10",
+        body: "Yamada Ryosuke",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
+        sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
       }
@@ -5444,9 +5444,9 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "AdrianTzy",
-        thumbnailUrl: "https://telegra.ph/file/2220edaed19c0a9234dba.jpg",
-        sourceUrl: "https://chat.whatsapp.com/DRCrPjaOXcZ9tXbx2raQ10",
+        body: "Yamada Ryosuke",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
+        sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
       }
@@ -5513,9 +5513,9 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "AdrianTzy",
-        thumbnailUrl: "https://telegra.ph/file/86b41f7e0ffc90dd99173.jpg",
-        sourceUrl: "https://chat.whatsapp.com/DRCrPjaOXcZ9tXbx2raQ10",
+        body: "Yamada Ryosuke",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
+        sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
       }
@@ -5560,9 +5560,9 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "AdrianTzy",
-        thumbnailUrl: "https://telegra.ph/file/4d61756bf4e3ef5d054d3.jpg",
-        sourceUrl: "https://chat.whatsapp.com/DRCrPjaOXcZ9tXbx2raQ10",
+        body: "Yamada Ryosuke",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
+        sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
       }
@@ -5602,9 +5602,9 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "AdrianTzy",
-        thumbnailUrl: "https://telegra.ph/file/4b1b13dd01e50bb007900.jpg",
-        sourceUrl: "https://chat.whatsapp.com/DRCrPjaOXcZ9tXbx2raQ10",
+        body: "Yamada Ryosuke",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
+        sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
       }
@@ -5660,9 +5660,9 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "AdrianTzy",
-        thumbnailUrl: "https://telegra.ph/file/a87b8b992563ca99ace13.jpg",
-        sourceUrl: "https://chat.whatsapp.com/DRCrPjaOXcZ9tXbx2raQ10",
+        body: "Yamada Ryosuke",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
+        sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
       }
@@ -5741,9 +5741,9 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "AdrianTzy",
-        thumbnailUrl: "https://telegra.ph/file/5a15e83c21c27be6efa66.jpg",
-        sourceUrl: "https://chat.whatsapp.com/DRCrPjaOXcZ9tXbx2raQ10",
+        body: "Yamada Ryosuke",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
+        sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
       }
@@ -5790,9 +5790,9 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "AdrianTzy",
-        thumbnailUrl: "https://telegra.ph/file/aa672e74528fe50d8f03f.jpg",
-        sourceUrl: "https://chat.whatsapp.com/DRCrPjaOXcZ9tXbx2raQ10",
+        body: "Yamada Ryosuke",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
+        sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
       }
@@ -5832,9 +5832,9 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "AdrianTzy",
-        thumbnailUrl: "https://telegra.ph/file/a7cd9a14a5006ff446154.jpg",
-        sourceUrl: "https://chat.whatsapp.com/DRCrPjaOXcZ9tXbx2raQ10",
+        body: "Yamada Ryosuke",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg,
+        sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
       }
@@ -5872,9 +5872,9 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "AdrianTzy",
-        thumbnailUrl: "https://telegra.ph/file/6f9a54bfa7ecdc4690620.jpg",
-        sourceUrl: "https://chat.whatsapp.com/DRCrPjaOXcZ9tXbx2raQ10",
+        body: "Yamada Ryosuke",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
+        sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
       }

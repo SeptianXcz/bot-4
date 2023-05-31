@@ -1,4 +1,4 @@
-require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)
+// require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)
 require('./config')
 const { default: connConnect, useMultiFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
 const pino = require('pino')
@@ -67,7 +67,7 @@ async function startAdrian() {
     const conn = connConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Adrian Multi Device','Safari','1.0.0'],
+        browser: ['Yamada Ryosuke','Safari','1.0.0.1'],
         patchMessageBeforeSending: (message) => {
 
                 const requiresPatch = !!(
@@ -235,7 +235,7 @@ async function startAdrian() {
 	for (let i of kon) {
 	    list.push({
 	    	displayName: await conn.getName(i + '@s.whatsapp.net'),
-	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await conn.getName(i + '@s.whatsapp.net')}\nFN:${await conn.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${nomerowner}:${nomerowner}\nitem1.X-ABLabel:Ponsel\nitem2.EMAIL;type=INTERNET:azzygota24@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://linktr.ee/arxzy_\nitem3.X-ABLabel:AdrianTzy\nitem4.ADR:;;Indonesia;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
+	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await conn.getName(i + '@s.whatsapp.net')}\nFN:${await conn.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${nomerowner}:${nomerowner}\nitem1.X-ABLabel:Ponsel\nitem2.EMAIL;type=INTERNET: yamadaasky@ichigo.me\nitem2.X-ABLabel:Email\nitem3.URL:https://s.id/yamadaaskyy\nitem3.X-ABLabel: YamadaRyosuke\nitem4.ADR:;;Indonesia;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
 	    })
 	}
 	conn.sendMessage(jid, { contacts: { displayName: `${list.length} Kontak`, contacts: list }, ...opts }, { quoted })
