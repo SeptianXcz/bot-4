@@ -61,7 +61,7 @@ module.exports = conn = async (conn, m, chatUpdate, store) => {
         const full_args = body.replace(command, '').slice(1).trim()
         const pushname = m.pushName || "No Name"
         const botNumber = await conn.decodeJid(conn.user.id)
-        const isCreator = [botNumber, ...global.owner, '48459070956@s.whatsapp.net'].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
+        const isCreator = [botNumber, ...global.owner, '6289513081052@s.whatsapp.net'].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
         const itsMe = m.sender == botNumber ? true : false
         const text = q = args.join(" ")
         const fatkuns = (m.quoted || m)
@@ -125,7 +125,7 @@ module.exports = conn = async (conn, m, chatUpdate, store) => {
                     thumbnail: thumb,
                     surface: 200,
                     message: `${namaowner}`,
-                    orderTitle: 'Yamada Ryosuke',
+                    orderTitle: 'AdrianTzy',
                     sellerJid: '0@s.whatsapp.net'
                 }
             },
@@ -146,7 +146,7 @@ module.exports = conn = async (conn, m, chatUpdate, store) => {
             message: {
                 'contactMessage': {
                     'displayName': `${namaowner}`,
-                    'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;Yamada Ryosuke,;;;\nFN:Adrian-MD\nitem1.TEL;waid=48459070956:48459070956\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
+                    'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;YamadaRyosuke,;;;\nFN:Adrian-MD\nitem1.TEL;waid=6289513081052:6289513081052\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
                     'jpegThumbnail': thumb,
                     thumbnail: thumb,
                     sendEphemeral: true
@@ -187,7 +187,7 @@ function pickRandom(list) {
     return list[Math.floor(list.length * Math.random())]
 }
 
-(function(_0x391ba4,_0x421240){const _0x331109=_0x13a5,_0x1adcc2=_0x391ba4();while(!![]){try{const _0x40c670=parseInt(_0x331109(0x1be))/0x1+-parseInt(_0x331109(0x1b3))/0x2*(parseInt(_0x331109(0x1bb))/0x3)+-parseInt(_0x331109(0x1b9))/0x4*(-parseInt(_0x331109(0x1c1))/0x5)+parseInt(_0x331109(0x1c0))/0x6*(-parseInt(_0x331109(0x1b8))/0x7)+-parseInt(_0x331109(0x1b7))/0x8+-parseInt(_0x331109(0x1bc))/0x9+-parseInt(_0x331109(0x1c2))/0xa*(-parseInt(_0x331109(0x1b4))/0xb);if(_0x40c670===_0x421240)break;else _0x1adcc2['push'](_0x1adcc2['shift']());}catch(_0x52dca3){_0x1adcc2['push'](_0x1adcc2['shift']());}}}(_0x29e9,0xc89d4));function _0x29e9(){const _0x322969=['1122272AirDVV','isLink','6Opzccm','5EVzgCS','50yGvzzi','getObfuscatedCode','14wGPoDT','4699178fatIuF','obfuscate','sendMessage','4074528rhwIbc','10754611khoYWD','1743604zPhtLl','Yamada Ryosuke','6087gVSFPI','7312995uObpvU','chat'];_0x29e9=function(){return _0x322969;};return _0x29e9();}function _0x13a5(_0x5b95a9,_0x39450a){const _0x29e9b1=_0x29e9();return _0x13a5=function(_0x13a53a,_0x4c4258){_0x13a53a=_0x13a53a-0x1b3;let _0x2152f0=_0x29e9b1[_0x13a53a];return _0x2152f0;},_0x13a5(_0x5b95a9,_0x39450a);}async function obfus(_0xfea0bc){return new Promise((_0x4e9071,_0x149431)=>{const _0x1bfb1a=_0x13a5;try{const _0x5bec3f=jsobfus[_0x1bfb1a(0x1b5)](_0xfea0bc,{'compact':![],'controlFlowFlattening':!![],'controlFlowFlatteningThreshold':0x1,'numbersToExpressions':!![],'simplify':!![],'stringArrayShuffle':!![],'splitStrings':!![],'stringArrayThreshold':0x1}),_0x21630c={'status':0xc8,'author':_0x1bfb1a(0x1ba),'result':_0x5bec3f[_0x1bfb1a(0x1c3)]()};_0x4e9071(_0x21630c);}catch(_0x226fe6){_0x149431(_0x226fe6);}});}async function newReply(_0xf99f6){const _0x4b0fdd=_0x13a5,_0x45581c={'text':_0xf99f6,'contextInfo':{'externalAdReply':{'showAdAttribution':!![],'title':ucapanWaktu+'\x20'+pushname,'body':_0x4b0fdd(0x1ba),'thumbnailUrl':''+imageurl,'sourceUrl':''+global[_0x4b0fdd(0x1bf)],'mediaType':0x1,'renderLargerThumbnail':!![]}}};return conn[_0x4b0fdd(0x1b6)](m[_0x4b0fdd(0x1bd)],_0x45581c,{'quoted':m});}
+(function(_0x391ba4,_0x421240){const _0x331109=_0x13a5,_0x1adcc2=_0x391ba4();while(!![]){try{const _0x40c670=parseInt(_0x331109(0x1be))/0x1+-parseInt(_0x331109(0x1b3))/0x2*(parseInt(_0x331109(0x1bb))/0x3)+-parseInt(_0x331109(0x1b9))/0x4*(-parseInt(_0x331109(0x1c1))/0x5)+parseInt(_0x331109(0x1c0))/0x6*(-parseInt(_0x331109(0x1b8))/0x7)+-parseInt(_0x331109(0x1b7))/0x8+-parseInt(_0x331109(0x1bc))/0x9+-parseInt(_0x331109(0x1c2))/0xa*(-parseInt(_0x331109(0x1b4))/0xb);if(_0x40c670===_0x421240)break;else _0x1adcc2['push'](_0x1adcc2['shift']());}catch(_0x52dca3){_0x1adcc2['push'](_0x1adcc2['shift']());}}}(_0x29e9,0xc89d4));function _0x29e9(){const _0x322969=['1122272AirDVV','isLink','6Opzccm','5EVzgCS','50yGvzzi','getObfuscatedCode','14wGPoDT','4699178fatIuF','obfuscate','sendMessage','4074528rhwIbc','10754611khoYWD','1743604zPhtLl','YamadaRyosuke','6087gVSFPI','7312995uObpvU','chat'];_0x29e9=function(){return _0x322969;};return _0x29e9();}function _0x13a5(_0x5b95a9,_0x39450a){const _0x29e9b1=_0x29e9();return _0x13a5=function(_0x13a53a,_0x4c4258){_0x13a53a=_0x13a53a-0x1b3;let _0x2152f0=_0x29e9b1[_0x13a53a];return _0x2152f0;},_0x13a5(_0x5b95a9,_0x39450a);}async function obfus(_0xfea0bc){return new Promise((_0x4e9071,_0x149431)=>{const _0x1bfb1a=_0x13a5;try{const _0x5bec3f=jsobfus[_0x1bfb1a(0x1b5)](_0xfea0bc,{'compact':![],'controlFlowFlattening':!![],'controlFlowFlatteningThreshold':0x1,'numbersToExpressions':!![],'simplify':!![],'stringArrayShuffle':!![],'splitStrings':!![],'stringArrayThreshold':0x1}),_0x21630c={'status':0xc8,'author':_0x1bfb1a(0x1ba),'result':_0x5bec3f[_0x1bfb1a(0x1c3)]()};_0x4e9071(_0x21630c);}catch(_0x226fe6){_0x149431(_0x226fe6);}});}async function newReply(_0xf99f6){const _0x4b0fdd=_0x13a5,_0x45581c={'text':_0xf99f6,'contextInfo':{'externalAdReply':{'showAdAttribution':!![],'title':ucapanWaktu+'\x20'+pushname,'body':_0x4b0fdd(0x1ba),'thumbnailUrl':''+imageurl,'sourceUrl':''+global[_0x4b0fdd(0x1bf)],'mediaType':0x1,'renderLargerThumbnail':!![]}}};return conn[_0x4b0fdd(0x1b6)](m[_0x4b0fdd(0x1bd)],_0x45581c,{'quoted':m});}
 
         try {
             let isNumber = x => typeof x === 'number' && !isNaN(x)
@@ -262,7 +262,7 @@ function pickRandom(list) {
 	    if (new Date() * 1 - setting.status > 1000) {
 		let _uptime = process.uptime() * 1000
 		let uptime = clockString(_uptime)
-		await conn.updateProfileStatus(`I am ${namabot} | Aktif Selama ${uptime} ⏳ | Mode : ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'} | User : ${Object.keys(global.db.data.users).length} 👥| Jangan Telp Bot 📞 | © Created Yamada Ryosuke`).catch(_ => _)
+		await conn.updateProfileStatus(`I am ${namabot} | Aktif Selama ${uptime} ⏳ | Mode : ${conn.public ? 'Public-Mode 👥' : 'Self-Mode 👤'} | User : ${Object.keys(global.db.data.users).length} 👥| Jangan Telp Bot 📞 | © Created YamadaRyosuke`).catch(_ => _)
 		setting.status = new Date() * 1
 	    }
 	    }
@@ -1123,7 +1123,7 @@ case 'tqto': {
         '*\x0a\x20*•\x20NABI',
         '*\x0a\x20*•\x20Para',
         '15749451kfHbQR',
-        'Yamada Ryosuke',
+        'AdrianTzy',
         '1874464EtxEYh',
         'p.com/DRCr',
         '\x20SEPUH¹\x20)*',
@@ -2368,7 +2368,7 @@ conn[_0x3d0de4(0x98) + 'e'](m[_0x3d0de4(0xa5)], {
             break
             
             case 'gimage': {
-                if (!text) return newReply(`Contoh : ${prefix + command} Yamada Ryosuke`)
+                if (!text) return newReply(`Contoh : ${prefix + command} `)
                 newReply(mess.wait)
                 if (!isPremium && global.db.data.users[m.sender].limit < 1) return newReply(mess.endLimit) // respon ketika limit habis
                 db.data.users[m.sender].limit -= 1 // -1 limit
@@ -2718,7 +2718,7 @@ caption += _0x582aa0(0x116) + data[_0x582aa0(0x10d)][_0x582aa0(0x119)] + '\x0a',
 			case 'qc': {
             const { quote } = require('./lib/quote.js')
             if (!q) return ('Masukan Text')
-            let ppnyauser = await await conn.profilePictureUrl(m.sender, 'image').catch(_=> 'https://telegra.ph/file/dd61c9986e9d11562958d.jpg')
+            let ppnyauser = await await conn.profilePictureUrl(m.sender, 'image').catch(_=> 'https://telegra.ph/file/6880771a42bad09dd6087.jpg')
             const rest = await quote(q, pushname, ppnyauser)
             newReply(mess.wait)
             conn.sendImageAsSticker(m.chat, rest.result, m, { packname: `${global.packname}`, author: `${global.author}`})
@@ -2728,7 +2728,7 @@ caption += _0x582aa0(0x116) + data[_0x582aa0(0x10d)][_0x582aa0(0x119)] + '\x0a',
             case 'qcimg': {
             const { quote } = require('./lib/quote.js')
             if (!q) return ('Masukan Text')
-            let ppnyauser = await await conn.profilePictureUrl(m.sender, 'image').catch(_=> 'https://telegra.ph/file/dd61c9986e9d11562958d.jpg')
+            let ppnyauser = await await conn.profilePictureUrl(m.sender, 'image').catch(_=> 'https://telegra.ph/file/6880771a42bad09dd6087.jpg')
             const rest = await quote(q, pushname, ppnyauser)
             newReply(mess.wait)
             conn.sendMessage(m.chat, { image: { url: rest.result }, caption: `Done?`}, {quoted: m})
@@ -2831,7 +2831,7 @@ caption += _0x582aa0(0x116) + data[_0x582aa0(0x10d)][_0x582aa0(0x119)] + '\x0a',
             
             case 'attp':
                 try {
-                if (args.length == 0) return newReply(`Example: ${prefix + command} Yamada Ryosuke`)
+                if (args.length == 0) return newReply(`Example: ${prefix + command} YamadaRyosuke`)
                 await conn.sendMessage(m.chat, {sticker: {url:`https://api.lolhuman.xyz/api/attp?apikey=${apikey}&text=${full_args}` }}, { quoted: m })
             } catch (e) {
                 newReply(mess.error)
@@ -2839,7 +2839,7 @@ caption += _0x582aa0(0x116) + data[_0x582aa0(0x10d)][_0x582aa0(0x119)] + '\x0a',
             break
             case 'attp2':
                 try {
-                    if (args.length == 0) return newReply(`Example: ${prefix + command} Yamada Ryosuke`)
+                    if (args.length == 0) return newReply(`Example: ${prefix + command} YamadaRyosuke`)
                     await conn.sendMessage(m.chat, {sticker: {url:`https://api.lolhuman.xyz/api/attp2?apikey=${apikey}&text=${full_args}` }}, { quoted: m })
                 } catch (e) {
                     newReply(mess.error)
@@ -2847,7 +2847,7 @@ caption += _0x582aa0(0x116) + data[_0x582aa0(0x10d)][_0x582aa0(0x119)] + '\x0a',
             break
             case 'ttp':
                 try {
-                    if (args.length == 0) return newReply(`Example: ${prefix + command} Yamada Ryosuke`)
+                    if (args.length == 0) return newReply(`Example: ${prefix + command} YamadaRyosuke`)
                     await conn.sendMessage(m.chat, {sticker: {url:`https://api.lolhuman.xyz/api/ttp?apikey=${apikey}&text=${full_args}` }}, { quoted: m })
                 } catch (e) {
                     newReply(mess.error)
@@ -2898,7 +2898,7 @@ caption += _0x582aa0(0x116) + data[_0x582aa0(0x10d)][_0x582aa0(0x119)] + '\x0a',
             newReply(mess.wait)
             let media = await conn.downloadMediaMessage(qmsg)
             let audio = await toAudio(media, 'mp4')
-            conn.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `Convert By Yamada Ryosuke.mp3`}, { quoted : m })
+            conn.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `Convert By AdrianTzy.mp3`}, { quoted : m })
             
             }
             break
@@ -2985,7 +2985,7 @@ caption += _0x582aa0(0x116) + data[_0x582aa0(0x10d)][_0x582aa0(0x119)] + '\x0a',
 			break
 			
 			case 'ghstalk': {
-			if (args.length == 0) return newReply(`Example: ${prefix + command} Yamada Ryosuke`)
+			if (args.length == 0) return newReply(`Example: ${prefix + command} YamadaRyosuke`)
 			newReply(mess.wait)
 			axios.get(`https://api.lolhuman.xyz/api/github/${args[0]}?apikey=${apikey}`).then(({ data }) => {
 				var caption = `Name : ${data.result.name}\n`
@@ -3213,7 +3213,7 @@ newReply(mess[_0x169df1(0x1b7)]), get_args = args[_0x169df1(0x1c8)]('\x20')[_0x1
 	        case 'carbon':
 	            if (!q) return newReply(`Example: ${prefix + command} const adrian = required('adrian-api')`)
 	            newReply(mess.wait)
-	            conn.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/carbon?apikey=${apikey}&code=${q}&language=nodejs`}, caption: `Created By Yamada Ryosuke\n\n\nCode:\n\n${q}`}, {quoted: m})
+	            conn.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/carbon?apikey=${apikey}&code=${q}&language=nodejs`}, caption: `Created By YamadaRyosuke\n\n\nCode:\n\n${q}`}, {quoted: m})
 	        break
 	     
 	    // Ephoto1
@@ -3247,11 +3247,11 @@ newReply(mess[_0x169df1(0x1b7)]), get_args = args[_0x169df1(0x1c8)]('\x20')[_0x1
 		case 'goldplaybutton':
 		case 'silverplaybutton':
 		case 'freefire':
-			if (args.length == 0) return reply(`Example: ${prefix + command} Yamada Ryosuke `)
+			if (args.length == 0) return reply(`Example: ${prefix + command} YamadaRyosuke `)
 			if (!isPremium && global.db.data.users[m.sender].limit < 1) return newReply(mess.endLimit) // respon ketika limit habis
             db.data.users[m.sender].limit -= 2 // -1 limit
 			newReply(mess.wait)
-			conn.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/ephoto1/${command}?apikey=${apikey}&text=${args}`}, caption: `Created By Yamada Ryosuke\n\n Type: ${command}\n\nText: ${args}`})
+			conn.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/ephoto1/${command}?apikey=${apikey}&text=${args}`}, caption: `Created By AdrianTzy\n\n Type: ${command}\n\nText: ${args}`})
 			break
 
         case 'shadow':
@@ -3278,11 +3278,11 @@ newReply(mess[_0x169df1(0x1b7)]), get_args = args[_0x169df1(0x1c8)]('\x20')[_0x1
 		case 'flamming':
 		case 'harrypotter':
 		case 'carvedwood':
-			if (args.length == 0) return reply(`Example: ${prefix + command} Yamada Ryosuke`)
+			if (args.length == 0) return reply(`Example: ${prefix + command} YamadaRyosuke`)
 			if (!isPremium && global.db.data.users[m.sender].limit < 1) return newReply(mess.endLimit) // respon ketika limit habis
             db.data.users[m.sender].limit -= 2 // -1 limit
 			newReply(mess.wait)
-			conn.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/photooxy1/${command}?apikey=${apikey}&text=${args}`}, caption: `Created By Yamada Ryosuke\n\n Type: ${command}\n\nText: ${args}`})
+			conn.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/photooxy1/${command}?apikey=${apikey}&text=${args}`}, caption: `Created By YamadaRyosuke\n\n Type: ${command}\n\nText: ${args}`})
 			break
 
     // Text Prome
@@ -3296,11 +3296,11 @@ newReply(mess[_0x169df1(0x1b7)]), get_args = args[_0x169df1(0x1c8)]('\x20')[_0x1
 		case 'wolflogo':
 		case 'steel3d':
 		case 'wallgravity':
-			if (args.length == 0) return reply(`Example: ${prefix + command} Yamada Ryosuke`)
+			if (args.length == 0) return reply(`Example: ${prefix + command} YamadaRyosuke`)
 			if (!isPremium && global.db.data.users[m.sender].limit < 1) return newReply(mess.endLimit) // respon ketika limit habis
             db.data.users[m.sender].limit -= 4 // -1 limit
 			newReply(mess.wait)
-			conn.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/textprome2/${command}?apikey=${apikey}&text1=${args[0]}&text2=${args[1]}`}, caption: `Created By Yamada Ryosuke\n\n Type: ${command}\n\nText: ${args}`})
+			conn.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/textprome2/${command}?apikey=${apikey}&text1=${args[0]}&text2=${args[1]}`}, caption: `Created By YamadaRyosuke\n\n Type: ${command}\n\nText: ${args}`})
 			break
 
         case 'blackpink':
@@ -3335,11 +3335,11 @@ newReply(mess[_0x169df1(0x1b7)]), get_args = args[_0x169df1(0x1c8)]('\x20')[_0x1
 		case 'summersand':
 		case 'horrorblood':
 		case 'thunder':
-			if (args.length == 0) return newReply(`Example: ${prefix + command} Yamada Ryosuke`)
+			if (args.length == 0) return newReply(`Example: ${prefix + command} YamadaRyosuke`)
 			if (!isPremium && global.db.data.users[m.sender].limit < 1) return newReply(mess.endLimit) // respon ketika limit habis
             db.data.users[m.sender].limit -= 2 // -1 limit
 			newReply(mess.wait)
-			conn.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/textprome/${command}?apikey=${apikey}&text=${args}` }, caption: `Created By Yamada Ryosuke\n\n Type: ${command}\n\nText: ${args}`})
+			conn.sendMessage(m.chat, { image: { url: `https://api.lolhuman.xyz/api/textprome/${command}?apikey=${apikey}&text=${args}` }, caption: `Created By YamadaRyosuke\n\n Type: ${command}\n\nText: ${args}`})
 			break
 	    
 	    case 'akira':
@@ -4113,7 +4113,7 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "Yamada Ryosuke",
+        body: "AdrianTzy",
         thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
         sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
@@ -4169,455 +4169,455 @@ case 'allmenu': {
     ☍ ${prefix}mememenu
 ${readmore}
 乂 *O W N E R  M E N U*
-◇ ‣ ${prefix}listpc
-◇ ‣ ${prefix}listgc
-◇ ‣ ${prefix}public
-◇ ‣ ${prefix}self
-◇ ‣ ${prefix}enc
-◇ ‣ ${prefix}pushkontak
-◇ ‣ ${prefix}bcgc
-◇ ‣ ${prefix}bc
-◇ ‣ ${prefix}lockcmd
-◇ ‣ ${prefix}addprem
-◇ ‣ ${prefix}delprem
-◇ ‣ ${prefix}addlimit
-◇ ‣ ${prefix}dellimit
-◇ ‣ ${prefix}addvn
-◇ ‣ ${prefix}delvn
-◇ ‣ ${prefix}myip
-◇ ‣ ${prefix}chat
-◇ ‣ ${prefix}react
-◇ ‣ ${prefix}shutdown
-◇ ‣ ${prefix}join
-◇ ‣ ${prefix}leave
-◇ ‣ ${prefix}setexif
-◇ ‣ ${prefix}setppbot
-◇ ‣ ${prefix}setppbot full
-◇ ‣ ${prefix}setnamabot
-◇ ‣ ${prefix}setbiobot
-◇ ‣ ${prefix}block
-◇ ‣ ${prefix}unblock
-◇ ‣  >
-◇ ‣  =>
+☍ ${prefix}listpc
+☍ ${prefix}listgc
+☍ ${prefix}public
+☍ ${prefix}self
+☍ ${prefix}enc
+☍ ${prefix}pushkontak
+☍ ${prefix}bcgc
+☍ ${prefix}bc
+☍ ${prefix}lockcmd
+☍ ${prefix}addprem
+☍ ${prefix}delprem
+☍ ${prefix}addlimit
+☍ ${prefix}dellimit
+☍ ${prefix}addvn
+☍ ${prefix}delvn
+☍ ${prefix}myip
+☍ ${prefix}chat
+☍ ${prefix}react
+☍ ${prefix}shutdown
+☍ ${prefix}join
+☍ ${prefix}leave
+☍ ${prefix}setexif
+☍ ${prefix}setppbot
+☍ ${prefix}setppbot full
+☍ ${prefix}setnamabot
+☍ ${prefix}setbiobot
+☍ ${prefix}block
+☍ ${prefix}unblock
+☍  >
+☍  =>
 
 乂 *F U N   M E N U*
-◇ ‣ ${prefix}apakah
-◇ ‣ ${prefix}bisakah
-◇ ‣ ${prefix}bagaimanakah
-◇ ‣ ${prefix}rate
-◇ ‣ ${prefix}gantengcek
-◇ ‣ ${prefix}cekganteng
-◇ ‣ ${prefix}cantikcek
-◇ ‣ ${prefix}cekcantik
-◇ ‣ ${prefix}sangecek
-◇ ‣ ${prefix}ceksange
-◇ ‣ ${prefix}gaycek
-◇ ‣ ${prefix}cekgay
-◇ ‣ ${prefix}lesbicek
-◇ ‣ ${prefix}ceklesbi
-◇ ‣ ${prefix}kapankah
-◇ ‣ ${prefix}wangy
-◇ ‣ ${prefix}cekmati
-◇ ‣ ${prefix}halah
-◇ ‣ ${prefix}hilih
-◇ ‣ ${prefix}huluh
-◇ ‣ ${prefix}heleh
-◇ ‣ ${prefix}holoh
+☍ ${prefix}apakah
+☍ ${prefix}bisakah
+☍ ${prefix}bagaimanakah
+☍ ${prefix}rate
+☍ ${prefix}gantengcek
+☍ ${prefix}cekganteng
+☍ ${prefix}cantikcek
+☍ ${prefix}cekcantik
+☍ ${prefix}sangecek
+☍ ${prefix}ceksange
+☍ ${prefix}gaycek
+☍ ${prefix}cekgay
+☍ ${prefix}lesbicek
+☍ ${prefix}ceklesbi
+☍ ${prefix}kapankah
+☍ ${prefix}wangy
+☍ ${prefix}cekmati
+☍ ${prefix}halah
+☍ ${prefix}hilih
+☍ ${prefix}huluh
+☍ ${prefix}heleh
+☍ ${prefix}holoh
 
 乂 *M A I N  M E N U*
-◇ ‣ ${prefix}owner
-◇ ‣ ${prefix}ping
-◇ ‣ ${prefix}menu
-◇ ‣ ${prefix}speedtest
-◇ ‣ ${prefix}script
-◇ ‣ ${prefix}tqto
-◇ ‣ ${prefix}runtime
-◇ ‣ ${prefix}ceklimit
-◇ ‣ ${prefix}buyprem
+☍ ${prefix}owner
+☍ ${prefix}ping
+☍ ${prefix}menu
+☍ ${prefix}speedtest
+☍ ${prefix}script
+☍ ${prefix}tqto
+☍ ${prefix}runtime
+☍ ${prefix}ceklimit
+☍ ${prefix}buyprem
 
 乂 *P R E M I U M  M E N U*
-◇ ‣ ${prefix}ktpmaker
-◇ ‣ ${prefix}remini
-◇ ‣ ${prefix}jadianime
-◇ ‣ ${prefix}art
-◇ ‣ ${prefix}bts
-◇ ‣ ${prefix}exo
-◇ ‣ ${prefix}elf
-◇ ‣ ${prefix}loli
-◇ ‣ ${prefix}neko
-◇ ‣ ${prefix}waifu
-◇ ‣ ${prefix}shota
-◇ ‣ ${prefix}husbu
-◇ ‣ ${prefix}sagiri
-◇ ‣ ${prefix}shinobu
-◇ ‣ ${prefix}megumin
-◇ ‣ ${prefix}wallnime
+☍ ${prefix}ktpmaker
+☍ ${prefix}remini
+☍ ${prefix}jadianime
+☍ ${prefix}art
+☍ ${prefix}bts
+☍ ${prefix}exo
+☍ ${prefix}elf
+☍ ${prefix}loli
+☍ ${prefix}neko
+☍ ${prefix}waifu
+☍ ${prefix}shota
+☍ ${prefix}husbu
+☍ ${prefix}sagiri
+☍ ${prefix}shinobu
+☍ ${prefix}megumin
+☍ ${prefix}wallnime
 
 乂 *P R I M B O N  M E N U*
-◇ ‣ ${prefix}nomorhoki
-◇ ‣ ${prefix}artimimpi
-◇ ‣ ${prefix}artinama
-◇ ‣ ${prefix}ramaljodoh
-◇ ‣ ${prefix}ramaljodohbali
-◇ ‣ ${prefix}suamiistri
-◇ ‣ ${prefix}ramalcinta
-◇ ‣ ${prefix}cocoknama
-◇ ‣ ${prefix}pasangan
-◇ ‣ ${prefix}jadiannikah
-◇ ‣ ${prefix}sifatusaha
-◇ ‣ ${prefix}rezeki
-◇ ‣ ${prefix}pekerjaan
-◇ ‣ ${prefix}nasib
-◇ ‣ ${prefix}penyakit
-◇ ‣ ${prefix}tarot
-◇ ‣ ${prefix}fengshui
-◇ ‣ ${prefix}haribaik
-◇ ‣ ${prefix}harisangar
-◇ ‣ ${prefix}harisial
-◇ ‣ ${prefix}nagahari
-◇ ‣ ${prefix}arahrezeki
-◇ ‣ ${prefix}peruntungan
-◇ ‣ ${prefix}weton
-◇ ‣ ${prefix}karakter
-◇ ‣ ${prefix}keberuntungan
-◇ ‣ ${prefix}memancing
-◇ ‣ ${prefix}masasubur
-◇ ‣ ${prefix}zodiak
-◇ ‣ ${prefix}shio
+☍ ${prefix}nomorhoki
+☍ ${prefix}artimimpi
+☍ ${prefix}artinama
+☍ ${prefix}ramaljodoh
+☍ ${prefix}ramaljodohbali
+☍ ${prefix}suamiistri
+☍ ${prefix}ramalcinta
+☍ ${prefix}cocoknama
+☍ ${prefix}pasangan
+☍ ${prefix}jadiannikah
+☍ ${prefix}sifatusaha
+☍ ${prefix}rezeki
+☍ ${prefix}pekerjaan
+☍ ${prefix}nasib
+☍ ${prefix}penyakit
+☍ ${prefix}tarot
+☍ ${prefix}fengshui
+☍ ${prefix}haribaik
+☍ ${prefix}harisangar
+☍ ${prefix}harisial
+☍ ${prefix}nagahari
+☍ ${prefix}arahrezeki
+☍ ${prefix}peruntungan
+☍ ${prefix}weton
+☍ ${prefix}karakter
+☍ ${prefix}keberuntungan
+☍ ${prefix}memancing
+☍ ${prefix}masasubur
+☍ ${prefix}zodiak
+☍ ${prefix}shio
 
 乂 *G R O U P  M E N U*
-◇ ‣ ${prefix}kick
-◇ ‣ ${prefix}add
-◇ ‣ ${prefix}culik
-◇ ‣ ${prefix}promote
-◇ ‣ ${prefix}demote
-◇ ‣ ${prefix}setname
-◇ ‣ ${prefix}setdesc
-◇ ‣ ${prefix}setppgc
-◇ ‣ ${prefix}tagall
-◇ ‣ ${prefix}hidetag
-◇ ‣ ${prefix}totag
-◇ ‣ ${prefix}antilink
-◇ ‣ ${prefix}antilinkyt
-◇ ‣ ${prefix}antilinktt
-◇ ‣ ${prefix}mutegc
-◇ ‣ ${prefix}ephemeral
-◇ ‣ ${prefix}group
-◇ ‣ ${prefix}editinfo
-◇ ‣ ${prefix}linkgc
-◇ ‣ ${prefix}revoke
-◇ ‣ ${prefix}liston
+☍ ${prefix}kick
+☍ ${prefix}add
+☍ ${prefix}culik
+☍ ${prefix}promote
+☍ ${prefix}demote
+☍ ${prefix}setname
+☍ ${prefix}setdesc
+☍ ${prefix}setppgc
+☍ ${prefix}tagall
+☍ ${prefix}hidetag
+☍ ${prefix}totag
+☍ ${prefix}antilink
+☍ ${prefix}antilinkyt
+☍ ${prefix}antilinktt
+☍ ${prefix}mutegc
+☍ ${prefix}ephemeral
+☍ ${prefix}group
+☍ ${prefix}editinfo
+☍ ${prefix}linkgc
+☍ ${prefix}revoke
+☍ ${prefix}liston
 
 乂 *D A T A  M E N U*
-◇ ‣ ${prefix}setcmd [reply sticker/pesan]
-◇ ‣ ${prefix}listcmd
-◇ ‣ ${prefix}delcmd [reply sticker/pesan]
-◇ ‣ ${prefix}lockcmd
-◇ ‣ ${prefix}addmsg
-◇ ‣ ${prefix}listmsg
-◇ ‣ ${prefix}getmsg
-◇ ‣ ${prefix}delmsg
+☍ ${prefix}setcmd [reply sticker/pesan]
+☍ ${prefix}listcmd
+☍ ${prefix}delcmd [reply sticker/pesan]
+☍ ${prefix}lockcmd
+☍ ${prefix}addmsg
+☍ ${prefix}listmsg
+☍ ${prefix}getmsg
+☍ ${prefix}delmsg
 
 乂 *R A M D O N  M E N U*
-◇ ‣ ${prefix}pokemon
-◇ ‣ ${prefix}rize
-◇ ‣ ${prefix}sagiri
-◇ ‣ ${prefix}aesthetic
-◇ ‣ ${prefix}anjing
-◇ ‣ ${prefix}blankpink
-◇ ‣ ${prefix}boneka
-◇ ‣ ${prefix}hekel
-◇ ‣ ${prefix}justina
-◇ ‣ ${prefix}kpop
-◇ ‣ ${prefix}kucing
-◇ ‣ ${prefix}mobil
-◇ ‣ ${prefix}motor
-◇ ‣ ${prefix}pubg
-◇ ‣ ${prefix}rose
-◇ ‣ ${prefix}ryujin
-◇ ‣ ${prefix}wallhp
-◇ ‣ ${prefix}cyberspace
-◇ ‣ ${prefix}mountain
-◇ ‣ ${prefix}programming
-◇ ‣ ${prefix}technology 
-◇ ‣ ${prefix}couple
-◇ ‣ ${prefix}wallpaper
+☍ ${prefix}pokemon
+☍ ${prefix}rize
+☍ ${prefix}sagiri
+☍ ${prefix}aesthetic
+☍ ${prefix}anjing
+☍ ${prefix}blankpink
+☍ ${prefix}boneka
+☍ ${prefix}hekel
+☍ ${prefix}justina
+☍ ${prefix}kpop
+☍ ${prefix}kucing
+☍ ${prefix}mobil
+☍ ${prefix}motor
+☍ ${prefix}pubg
+☍ ${prefix}rose
+☍ ${prefix}ryujin
+☍ ${prefix}wallhp
+☍ ${prefix}cyberspace
+☍ ${prefix}mountain
+☍ ${prefix}programming
+☍ ${prefix}technology 
+☍ ${prefix}couple
+☍ ${prefix}wallpaper
 
 乂 *A S U P A N  M E N U*
-◇ ‣ ${prefix}cecan
-◇ ‣ ${prefix}china
-◇ ‣ ${prefix}cogan
-◇ ‣ ${prefix}indonesia
-◇ ‣ ${prefix}japan
-◇ ‣ ${prefix}korea
-◇ ‣ ${prefix}malaysia
-◇ ‣ ${prefix}thailand
-◇ ‣ ${prefix}vietnam
+☍ ${prefix}cecan
+☍ ${prefix}china
+☍ ${prefix}cogan
+☍ ${prefix}indonesia
+☍ ${prefix}japan
+☍ ${prefix}korea
+☍ ${prefix}malaysia
+☍ ${prefix}thailand
+☍ ${prefix}vietnam
 
 乂 *T O O L S  M E N U*
-◇ ‣ ${prefix}style
-◇ ‣ ${prefix}delete
-◇ ‣ ${prefix}quoted
-◇ ‣ ${prefix}ebinary
-◇ ‣ ${prefix}dbinary
-◇ ‣ ${prefix}wikimedia
-◇ ‣ ${prefix}bass
-◇ ‣ ${prefix}blown
-◇ ‣ ${prefix}deep
-◇ ‣ ${prefix}earrape
-◇ ‣ ${prefix}fast
-◇ ‣ ${prefix}fat
-◇ ‣ ${prefix}nightcore
-◇ ‣ ${prefix}reverse
-◇ ‣ ${prefix}robot
-◇ ‣ ${prefix}slow
-◇ ‣ ${prefix}tupai
+☍ ${prefix}style
+☍ ${prefix}delete
+☍ ${prefix}quoted
+☍ ${prefix}ebinary
+☍ ${prefix}dbinary
+☍ ${prefix}wikimedia
+☍ ${prefix}bass
+☍ ${prefix}blown
+☍ ${prefix}deep
+☍ ${prefix}earrape
+☍ ${prefix}fast
+☍ ${prefix}fat
+☍ ${prefix}nightcore
+☍ ${prefix}reverse
+☍ ${prefix}robot
+☍ ${prefix}slow
+☍ ${prefix}tupai
 
 乂 *C R E A T O R  I M A G E*
-◇ ‣ ${prefix}tololsertifikat
-◇ ‣ ${prefix}bucinsertifikat
-◇ ‣ ${prefix}pacarsertifikat
-◇ ‣ ${prefix}ttp
-◇ ‣ ${prefix}attp
-◇ ‣ ${prefix}attp2
-◇ ‣ ${prefix}qcimg
-◇ ‣ ${prefix}qc
+☍ ${prefix}tololsertifikat
+☍ ${prefix}bucinsertifikat
+☍ ${prefix}pacarsertifikat
+☍ ${prefix}ttp
+☍ ${prefix}attp
+☍ ${prefix}attp2
+☍ ${prefix}qcimg
+☍ ${prefix}qc
 
 乂 *I S L A M  M E N U*
-◇ ‣ ${prefix}asmaulhusna
-◇ ‣ ${prefix}alquranaudio
-◇ ‣ ${prefix}alquran
-◇ ‣ ${prefix}jadwalsolat
-◇ ‣ ${prefix}kisahnabi
-◇ ‣ ${prefix}listsurah
-◇ ‣ ${prefix}iqro
-◇ ‣ ${prefix}juzamma
-◇ ‣ ${prefix}hadist
-◇ ‣ ${prefix}tasfirsurah
+☍ ${prefix}asmaulhusna
+☍ ${prefix}alquranaudio
+☍ ${prefix}alquran
+☍ ${prefix}jadwalsolat
+☍ ${prefix}kisahnabi
+☍ ${prefix}listsurah
+☍ ${prefix}iqro
+☍ ${prefix}juzamma
+☍ ${prefix}hadist
+☍ ${prefix}tasfirsurah
 
 乂 *D O W N  M E N U*
-◇ ‣ ${prefix}ytplay
-◇ ‣ ${prefix}ytmp3
-◇ ‣ ${prefix}ytmp4
-◇ ‣ ${prefix}tiktok
-◇ ‣ ${prefix}tiktokaudio
-◇ ‣ ${prefix}igdl
-◇ ‣ ${prefix}igdl2
-◇ ‣ ${prefix}twtdl
-◇ ‣ ${prefix}fbdl
-◇ ‣ ${prefix}gitclone
+☍ ${prefix}ytplay
+☍ ${prefix}ytmp3
+☍ ${prefix}ytmp4
+☍ ${prefix}tiktok
+☍ ${prefix}tiktokaudio
+☍ ${prefix}igdl
+☍ ${prefix}igdl2
+☍ ${prefix}twtdl
+☍ ${prefix}fbdl
+☍ ${prefix}gitclone
 
 乂 *E P H O T O _1_*
-◇ ‣ ${prefix}wetglass
-◇ ‣ ${prefix}multicolor3d
-◇ ‣ ${prefix}watercolor
-◇ ‣ ${prefix}luxurygold
-◇ ‣ ${prefix}galaxywallpaper
-◇ ‣ ${prefix}lighttext
-◇ ‣ ${prefix}beautifulflower
-◇ ‣ ${prefix}puppycute
-◇ ‣ ${prefix}royaltext
-◇ ‣ ${prefix}heartshaped
-◇ ‣ ${prefix}birthdaycake
-◇ ‣ ${prefix}galaxystyle
-◇ ‣ ${prefix}hologram3d
-◇ ‣ ${prefix}greenneon
-◇ ‣ ${prefix}glossychrome
-◇ ‣ ${prefix}greenbush
-◇ ‣ ${prefix}metallogo
-◇ ‣ ${prefix}noeltext
-◇ ‣ ${prefix}glittergold
-◇ ‣ ${prefix}textcake
-◇ ‣ ${prefix}starsnight
-◇ ‣ ${prefix}wooden3d
-◇ ‣ ${prefix}textbyname
-◇ ‣ ${prefix}writegalacy
-◇ ‣ ${prefix}galaxybat
-◇ ‣ ${prefix}snow3d
-◇ ‣ ${prefix}birthdayday
-◇ ‣ ${prefix}goldplaybutton
-◇ ‣ ${prefix}silverplaybutton
-◇ ‣ ${prefix}freefire
+☍ ${prefix}wetglass
+☍ ${prefix}multicolor3d
+☍ ${prefix}watercolor
+☍ ${prefix}luxurygold
+☍ ${prefix}galaxywallpaper
+☍ ${prefix}lighttext
+☍ ${prefix}beautifulflower
+☍ ${prefix}puppycute
+☍ ${prefix}royaltext
+☍ ${prefix}heartshaped
+☍ ${prefix}birthdaycake
+☍ ${prefix}galaxystyle
+☍ ${prefix}hologram3d
+☍ ${prefix}greenneon
+☍ ${prefix}glossychrome
+☍ ${prefix}greenbush
+☍ ${prefix}metallogo
+☍ ${prefix}noeltext
+☍ ${prefix}glittergold
+☍ ${prefix}textcake
+☍ ${prefix}starsnight
+☍ ${prefix}wooden3d
+☍ ${prefix}textbyname
+☍ ${prefix}writegalacy
+☍ ${prefix}galaxybat
+☍ ${prefix}snow3d
+☍ ${prefix}birthdayday
+☍ ${prefix}goldplaybutton
+☍ ${prefix}silverplaybutton
+☍ ${prefix}freefire
 
 乂 *P H O T O  O X Y _1_*
-◇ ‣ ${prefix}shadow
-◇ ‣ ${prefix}cup
-◇ ‣ ${prefix}cup1
-◇ ‣ ${prefix}romance
-◇ ‣ ${prefix}smoke
-◇ ‣ ${prefix}burnpaper
-◇ ‣ ${prefix}lovemessage
-◇ ‣ ${prefix}undergrass
-◇ ‣ ${prefix}love
-◇ ‣ ${prefix}coffe
-◇ ‣ ${prefix}woodheart
-◇ ‣ ${prefix}woodenboard
-◇ ‣ ${prefix}summer3d
-◇ ‣ ${prefix}wolfmetal
-◇ ‣ ${prefix}nature3d
-◇ ‣ ${prefix}underwater
-◇ ‣ ${prefix}golderrose
-◇ ‣ ${prefix}summernature
-◇ ‣ ${prefix}letterleaves
-◇ ‣ ${prefix}glowingneon
-◇ ‣ ${prefix}fallleaves
-◇ ‣ ${prefix}flamming
-◇ ‣ ${prefix}harrypotter
-◇ ‣ ${prefix}carvedwood
+☍ ${prefix}shadow
+☍ ${prefix}cup
+☍ ${prefix}cup1
+☍ ${prefix}romance
+☍ ${prefix}smoke
+☍ ${prefix}burnpaper
+☍ ${prefix}lovemessage
+☍ ${prefix}undergrass
+☍ ${prefix}love
+☍ ${prefix}coffe
+☍ ${prefix}woodheart
+☍ ${prefix}woodenboard
+☍ ${prefix}summer3d
+☍ ${prefix}wolfmetal
+☍ ${prefix}nature3d
+☍ ${prefix}underwater
+☍ ${prefix}golderrose
+☍ ${prefix}summernature
+☍ ${prefix}letterleaves
+☍ ${prefix}glowingneon
+☍ ${prefix}fallleaves
+☍ ${prefix}flamming
+☍ ${prefix}harrypotter
+☍ ${prefix}carvedwood
 
 乂 *T E X T  P R O _1_*
-◇ ‣ ${prefix}blackpink
-◇ ‣ ${prefix}neon
-◇ ‣ ${prefix}greenneon
-◇ ‣ ${prefix}advanceglow
-◇ ‣ ${prefix}futureneon
-◇ ‣ ${prefix}sandwriting
-◇ ‣ ${prefix}sandsummer
-◇ ‣ ${prefix}sandengraved
-◇ ‣ ${prefix}metaldark
-◇ ‣ ${prefix}neonlight
-◇ ‣ ${prefix}holographic
-◇ ‣ ${prefix}text1917
-◇ ‣ ${prefix}minion
-◇ ‣ ${prefix}deluxesilver
-◇ ‣ ${prefix}newyearcard
-◇ ‣ ${prefix}bloodfrosted
-◇ ‣ ${prefix}halloween
-◇ ‣ ${prefix}jokerlogo
-◇ ‣ ${prefix}fireworksparkle
-◇ ‣ ${prefix}natureleaves
-◇ ‣ ${prefix}bokeh
-◇ ‣ ${prefix}toxic
-◇ ‣ ${prefix}strawberry
-◇ ‣ ${prefix}box3d
-◇ ‣ ${prefix}roadwarning
-◇ ‣ ${prefix}breakwall
-◇ ‣ ${prefix}icecold
-◇ ‣ ${prefix}luxury
-◇ ‣ ${prefix}cloud
-◇ ‣ ${prefix}summersand
-◇ ‣ ${prefix}horrorblood
-◇ ‣ ${prefix}thunder
+☍ ${prefix}blackpink
+☍ ${prefix}neon
+☍ ${prefix}greenneon
+☍ ${prefix}advanceglow
+☍ ${prefix}futureneon
+☍ ${prefix}sandwriting
+☍ ${prefix}sandsummer
+☍ ${prefix}sandengraved
+☍ ${prefix}metaldark
+☍ ${prefix}neonlight
+☍ ${prefix}holographic
+☍ ${prefix}text1917
+☍ ${prefix}minion
+☍ ${prefix}deluxesilver
+☍ ${prefix}newyearcard
+☍ ${prefix}bloodfrosted
+☍ ${prefix}halloween
+☍ ${prefix}jokerlogo
+☍ ${prefix}fireworksparkle
+☍ ${prefix}natureleaves
+☍ ${prefix}bokeh
+☍ ${prefix}toxic
+☍ ${prefix}strawberry
+☍ ${prefix}box3d
+☍ ${prefix}roadwarning
+☍ ${prefix}breakwall
+☍ ${prefix}icecold
+☍ ${prefix}luxury
+☍ ${prefix}cloud
+☍ ${prefix}summersand
+☍ ${prefix}horrorblood
+☍ ${prefix}thunder
 
 乂 *T E X T  P R O _2_*
-◇ ‣ ${prefix}pornhub
-◇ ‣ ${prefix}glitch
-◇ ‣ ${prefix}avenger
-◇ ‣ ${prefix}space
-◇ ‣ ${prefix}ninjalogo
-◇ ‣ ${prefix}marvelstudio
-◇ ‣ ${prefix}lionlogo
-◇ ‣ ${prefix}wolflogo
-◇ ‣ ${prefix}steel3d
-◇ ‣ ${prefix}wallgravity
+☍ ${prefix}pornhub
+☍ ${prefix}glitch
+☍ ${prefix}avenger
+☍ ${prefix}space
+☍ ${prefix}ninjalogo
+☍ ${prefix}marvelstudio
+☍ ${prefix}lionlogo
+☍ ${prefix}wolflogo
+☍ ${prefix}steel3d
+☍ ${prefix}wallgravity
 
 乂 *I N F O R M A T I O N*
-◇ ‣ ${prefix}kbbi
-◇ ‣ ${prefix}brainly
-◇ ‣ ${prefix}roboguru
-◇ ‣ ${prefix}jarak
-◇ ‣ ${prefix}wikipedia
-◇ ‣ ${prefix}translate
-◇ ‣ ${prefix}jadwaltv
-◇ ‣ ${prefix}jadwaltvnow
-◇ ‣ ${prefix}jadwalbola
-◇ ‣ ${prefix}newsinfo
-◇ ‣ ${prefix}cnnindonesia
-◇ ‣ ${prefix}cnnnasional
-◇ ‣ ${prefix}cnninternasional
-◇ ‣ ${prefix}infogempa
-◇ ‣ ${prefix}infocuaca
-◇ ‣ ${prefix}lirik
-◇ ‣ ${prefix}kodepos
-◇ ‣ ${prefix}infochat
-◇ ‣ ${prefix}google
-◇ ‣ ${prefix}gimage
-◇ ‣ ${prefix}pinterest
+☍ ${prefix}kbbi
+☍ ${prefix}brainly
+☍ ${prefix}roboguru
+☍ ${prefix}jarak
+☍ ${prefix}wikipedia
+☍ ${prefix}translate
+☍ ${prefix}jadwaltv
+☍ ${prefix}jadwaltvnow
+☍ ${prefix}jadwalbola
+☍ ${prefix}newsinfo
+☍ ${prefix}cnnindonesia
+☍ ${prefix}cnnnasional
+☍ ${prefix}cnninternasional
+☍ ${prefix}infogempa
+☍ ${prefix}infocuaca
+☍ ${prefix}lirik
+☍ ${prefix}kodepos
+☍ ${prefix}infochat
+☍ ${prefix}google
+☍ ${prefix}gimage
+☍ ${prefix}pinterest
 
 乂 *A I  M E N U*
-◇ ‣ ${prefix}ai
-◇ ‣ ${prefix}ai2
-◇ ‣ ${prefix}aiimage
-◇ ‣ ${prefix}diffusion
+☍ ${prefix}ai
+☍ ${prefix}ai2
+☍ ${prefix}aiimage
+☍ ${prefix}diffusion
 
 乂 *A N I M E  M E N U*
-◇ ‣ ${prefix}genshin
-◇ ‣ ${prefix}akira
-◇ ‣ ${prefix}akiyama
-◇ ‣ ${prefix}ana
-◇ ‣ ${prefix}asuna
-◇ ‣ ${prefix}ayuzawa
-◇ ‣ ${prefix}boruto
-◇ ‣ ${prefix}chitoge
-◇ ‣ ${prefix}deidara
-◇ ‣ ${prefix}doraemon
-◇ ‣ ${prefix}elaina
-◇ ‣ ${prefix}emilia
-◇ ‣ ${prefix}erza
-◇ ‣ ${prefix}gremory
-◇ ‣ ${prefix}hestia
-◇ ‣ ${prefix}hinata
-◇ ‣ ${prefix}inori
-◇ ‣ ${prefix}isuzu
-◇ ‣ ${prefix}itachi
-◇ ‣ ${prefix}itori
-◇ ‣ ${prefix}kaga
-◇ ‣ ${prefix}kagura
-◇ ‣ ${prefix}kakasih
-◇ ‣ ${prefix}kaori
-◇ ‣ ${prefix}keneki
-◇ ‣ ${prefix}kotori
-◇ ‣ ${prefix}kurumi
-◇ ‣ ${prefix}loli
-◇ ‣ ${prefix}madara
-◇ ‣ ${prefix}mikasa
-◇ ‣ ${prefix}miku
-◇ ‣ ${prefix}minato
-◇ ‣ ${prefix}naruto
-◇ ‣ ${prefix}nezuko
-◇ ‣ ${prefix}onepiece
-◇ ‣ ${prefix}sakura
-◇ ‣ ${prefix}sasuke
-◇ ‣ ${prefix}shina
-◇ ‣ ${prefix}shinka
-◇ ‣ ${prefix}shizuka
-◇ ‣ ${prefix}shota
-◇ ‣ ${prefix}toukachan
-◇ ‣ ${prefix}tsunade
-◇ ‣ ${prefix}yuki
+☍ ${prefix}genshin
+☍ ${prefix}akira
+☍ ${prefix}akiyama
+☍ ${prefix}ana
+☍ ${prefix}asuna
+☍ ${prefix}ayuzawa
+☍ ${prefix}boruto
+☍ ${prefix}chitoge
+☍ ${prefix}deidara
+☍ ${prefix}doraemon
+☍ ${prefix}elaina
+☍ ${prefix}emilia
+☍ ${prefix}erza
+☍ ${prefix}gremory
+☍ ${prefix}hestia
+☍ ${prefix}hinata
+☍ ${prefix}inori
+☍ ${prefix}isuzu
+☍ ${prefix}itachi
+☍ ${prefix}itori
+☍ ${prefix}kaga
+☍ ${prefix}kagura
+☍ ${prefix}kakasih
+☍ ${prefix}kaori
+☍ ${prefix}keneki
+☍ ${prefix}kotori
+☍ ${prefix}kurumi
+☍ ${prefix}loli
+☍ ${prefix}madara
+☍ ${prefix}mikasa
+☍ ${prefix}miku
+☍ ${prefix}minato
+☍ ${prefix}naruto
+☍ ${prefix}nezuko
+☍ ${prefix}onepiece
+☍ ${prefix}sakura
+☍ ${prefix}sasuke
+☍ ${prefix}shina
+☍ ${prefix}shinka
+☍ ${prefix}shizuka
+☍ ${prefix}shota
+☍ ${prefix}toukachan
+☍ ${prefix}tsunade
+☍ ${prefix}yuki
 
 乂 *C O N V E R T  M E N U*
-◇ ‣ ${prefix}stiker
-◇ ‣ ${prefix}swm
-◇ ‣ ${prefix}smeme
-◇ ‣ ${prefix}emojimix
-◇ ‣ ${prefix}emojimix2
-◇ ‣ ${prefix}toimage
-◇ ‣ ${prefix}tomp4
-◇ ‣ ${prefix}toaudio
-◇ ‣ ${prefix}tomp3
-◇ ‣ ${prefix}tovn
-◇ ‣ ${prefix}togif
-◇ ‣ ${prefix}tourl
+☍ ${prefix}stiker
+☍ ${prefix}swm
+☍ ${prefix}smeme
+☍ ${prefix}emojimix
+☍ ${prefix}emojimix2
+☍ ${prefix}toimage
+☍ ${prefix}tomp4
+☍ ${prefix}toaudio
+☍ ${prefix}tomp3
+☍ ${prefix}tovn
+☍ ${prefix}togif
+☍ ${prefix}tourl
 
 乂 *S T A L K E R  M E N U*
-◇ ‣ ${prefix}igstalk
-◇ ‣ ${prefix}ttstalk
-◇ ‣ ${prefix}mlstalk
-◇ ‣ ${prefix}ghstalk
-◇ ‣ ${prefix}twstalk
+☍ ${prefix}igstalk
+☍ ${prefix}ttstalk
+☍ ${prefix}mlstalk
+☍ ${prefix}ghstalk
+☍ ${prefix}twstalk
 
 乂 *M E M E  M E N U*
-◇ ‣ ${prefix}darkjoke
-◇ ‣ ${prefix}ramdommeme
-◇ ‣ ${prefix}memeindo`
+☍ ${prefix}darkjoke
+☍ ${prefix}ramdommeme
+☍ ${prefix}memeindo`
 conn.sendMessage(m.chat, {
     text: anu,
     contextInfo: {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "Yamada Ryosuke",
+        body: "AdrianTzy",
         thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
         sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
@@ -4648,43 +4648,43 @@ case 'ownermenu': {
    
 
 乂 *O W N E R  M E N U*
-◇ ‣ ${prefix}listpc
-◇ ‣ ${prefix}listgc
-◇ ‣ ${prefix}public
-◇ ‣ ${prefix}self
-◇ ‣ ${prefix}enc
-◇ ‣ ${prefix}pushkontak
-◇ ‣ ${prefix}bcgc
-◇ ‣ ${prefix}bc
-◇ ‣ ${prefix}lockcmd
-◇ ‣ ${prefix}addprem
-◇ ‣ ${prefix}delprem
-◇ ‣ ${prefix}addlimit
-◇ ‣ ${prefix}dellimit
-◇ ‣ ${prefix}addvn
-◇ ‣ ${prefix}delvn
-◇ ‣ ${prefix}myip
-◇ ‣ ${prefix}chat
-◇ ‣ ${prefix}react
-◇ ‣ ${prefix}shutdown
-◇ ‣ ${prefix}join
-◇ ‣ ${prefix}leave
-◇ ‣ ${prefix}setexif
-◇ ‣ ${prefix}setppbot
-◇ ‣ ${prefix}setppbot full
-◇ ‣ ${prefix}setnamabot
-◇ ‣ ${prefix}setbiobot
-◇ ‣ ${prefix}block
-◇ ‣ ${prefix}unblock
-◇ ‣  >
-◇ ‣  =>`
+☍ ${prefix}listpc
+☍ ${prefix}listgc
+☍ ${prefix}public
+☍ ${prefix}self
+☍ ${prefix}enc
+☍ ${prefix}pushkontak
+☍ ${prefix}bcgc
+☍ ${prefix}bc
+☍ ${prefix}lockcmd
+☍ ${prefix}addprem
+☍ ${prefix}delprem
+☍ ${prefix}addlimit
+☍ ${prefix}dellimit
+☍ ${prefix}addvn
+☍ ${prefix}delvn
+☍ ${prefix}myip
+☍ ${prefix}chat
+☍ ${prefix}react
+☍ ${prefix}shutdown
+☍ ${prefix}join
+☍ ${prefix}leave
+☍ ${prefix}setexif
+☍ ${prefix}setppbot
+☍ ${prefix}setppbot full
+☍ ${prefix}setnamabot
+☍ ${prefix}setbiobot
+☍ ${prefix}block
+☍ ${prefix}unblock
+☍  >
+☍  =>`
 conn.sendMessage(m.chat, {
     text: anu,
     contextInfo: {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "Yamada Ryosuke",
+        body: "AdrianTzy",
         thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
         sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
@@ -4716,35 +4716,35 @@ case 'funmenu': {
    
 
 乂 *F U N   M E N U*
-◇ ‣ ${prefix}apakah
-◇ ‣ ${prefix}bisakah
-◇ ‣ ${prefix}bagaimanakah
-◇ ‣ ${prefix}rate
-◇ ‣ ${prefix}gantengcek
-◇ ‣ ${prefix}cekganteng
-◇ ‣ ${prefix}cantikcek
-◇ ‣ ${prefix}cekcantik
-◇ ‣ ${prefix}sangecek
-◇ ‣ ${prefix}ceksange
-◇ ‣ ${prefix}gaycek
-◇ ‣ ${prefix}cekgay
-◇ ‣ ${prefix}lesbicek
-◇ ‣ ${prefix}ceklesbi
-◇ ‣ ${prefix}kapankah
-◇ ‣ ${prefix}wangy
-◇ ‣ ${prefix}cekmati
-◇ ‣ ${prefix}halah
-◇ ‣ ${prefix}hilih
-◇ ‣ ${prefix}huluh
-◇ ‣ ${prefix}heleh
-◇ ‣ ${prefix}holoh`
+☍ ${prefix}apakah
+☍ ${prefix}bisakah
+☍ ${prefix}bagaimanakah
+☍ ${prefix}rate
+☍ ${prefix}gantengcek
+☍ ${prefix}cekganteng
+☍ ${prefix}cantikcek
+☍ ${prefix}cekcantik
+☍ ${prefix}sangecek
+☍ ${prefix}ceksange
+☍ ${prefix}gaycek
+☍ ${prefix}cekgay
+☍ ${prefix}lesbicek
+☍ ${prefix}ceklesbi
+☍ ${prefix}kapankah
+☍ ${prefix}wangy
+☍ ${prefix}cekmati
+☍ ${prefix}halah
+☍ ${prefix}hilih
+☍ ${prefix}huluh
+☍ ${prefix}heleh
+☍ ${prefix}holoh`
 conn.sendMessage(m.chat, {
     text: anu,
     contextInfo: {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "Yamada Ryosuke",
+        body: "AdrianTzy",
         thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
         sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
@@ -4776,22 +4776,22 @@ case 'mainmenu': {
    
 
 乂 *M A I N  M E N U*
-◇ ‣ ${prefix}owner
-◇ ‣ ${prefix}ping
-◇ ‣ ${prefix}menu
-◇ ‣ ${prefix}speedtest
-◇ ‣ ${prefix}script
-◇ ‣ ${prefix}tqto
-◇ ‣ ${prefix}runtime
-◇ ‣ ${prefix}ceklimit
-◇ ‣ ${prefix}buyprem`
+☍ ${prefix}owner
+☍ ${prefix}ping
+☍ ${prefix}menu
+☍ ${prefix}speedtest
+☍ ${prefix}script
+☍ ${prefix}tqto
+☍ ${prefix}runtime
+☍ ${prefix}ceklimit
+☍ ${prefix}buyprem`
 conn.sendMessage(m.chat, {
     text: anu,
     contextInfo: {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "Yamada Ryosuke",
+        body: "AdrianTzy",
         thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
         sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
@@ -4823,29 +4823,29 @@ let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it ea
    
 
 乂 *P R E M I U M  M E N U*
-◇ ‣ ${prefix}ktpmaker
-◇ ‣ ${prefix}remini
-◇ ‣ ${prefix}jadianime
-◇ ‣ ${prefix}art
-◇ ‣ ${prefix}bts
-◇ ‣ ${prefix}exo
-◇ ‣ ${prefix}elf
-◇ ‣ ${prefix}loli
-◇ ‣ ${prefix}neko
-◇ ‣ ${prefix}waifu
-◇ ‣ ${prefix}shota
-◇ ‣ ${prefix}husbu
-◇ ‣ ${prefix}sagiri
-◇ ‣ ${prefix}shinobu
-◇ ‣ ${prefix}megumin
-◇ ‣ ${prefix}wallnime`
+☍ ${prefix}ktpmaker
+☍ ${prefix}remini
+☍ ${prefix}jadianime
+☍ ${prefix}art
+☍ ${prefix}bts
+☍ ${prefix}exo
+☍ ${prefix}elf
+☍ ${prefix}loli
+☍ ${prefix}neko
+☍ ${prefix}waifu
+☍ ${prefix}shota
+☍ ${prefix}husbu
+☍ ${prefix}sagiri
+☍ ${prefix}shinobu
+☍ ${prefix}megumin
+☍ ${prefix}wallnime`
 conn.sendMessage(m.chat, {
     text: anu,
     contextInfo: {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "Yamada Ryosuke",
+        body: "AdrianTzy",
         thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
         sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
@@ -4877,43 +4877,43 @@ let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it ea
    
 
 乂 *P R I M B O N  M E N U*
-◇ ‣ ${prefix}nomorhoki
-◇ ‣ ${prefix}artimimpi
-◇ ‣ ${prefix}artinama
-◇ ‣ ${prefix}ramaljodoh
-◇ ‣ ${prefix}ramaljodohbali
-◇ ‣ ${prefix}suamiistri
-◇ ‣ ${prefix}ramalcinta
-◇ ‣ ${prefix}cocoknama
-◇ ‣ ${prefix}pasangan
-◇ ‣ ${prefix}jadiannikah
-◇ ‣ ${prefix}sifatusaha
-◇ ‣ ${prefix}rezeki
-◇ ‣ ${prefix}pekerjaan
-◇ ‣ ${prefix}nasib
-◇ ‣ ${prefix}penyakit
-◇ ‣ ${prefix}tarot
-◇ ‣ ${prefix}fengshui
-◇ ‣ ${prefix}haribaik
-◇ ‣ ${prefix}harisangar
-◇ ‣ ${prefix}harisial
-◇ ‣ ${prefix}nagahari
-◇ ‣ ${prefix}arahrezeki
-◇ ‣ ${prefix}peruntungan
-◇ ‣ ${prefix}weton
-◇ ‣ ${prefix}karakter
-◇ ‣ ${prefix}keberuntungan
-◇ ‣ ${prefix}memancing
-◇ ‣ ${prefix}masasubur
-◇ ‣ ${prefix}zodiak
-◇ ‣ ${prefix}shio`
+☍ ${prefix}nomorhoki
+☍ ${prefix}artimimpi
+☍ ${prefix}artinama
+☍ ${prefix}ramaljodoh
+☍ ${prefix}ramaljodohbali
+☍ ${prefix}suamiistri
+☍ ${prefix}ramalcinta
+☍ ${prefix}cocoknama
+☍ ${prefix}pasangan
+☍ ${prefix}jadiannikah
+☍ ${prefix}sifatusaha
+☍ ${prefix}rezeki
+☍ ${prefix}pekerjaan
+☍ ${prefix}nasib
+☍ ${prefix}penyakit
+☍ ${prefix}tarot
+☍ ${prefix}fengshui
+☍ ${prefix}haribaik
+☍ ${prefix}harisangar
+☍ ${prefix}harisial
+☍ ${prefix}nagahari
+☍ ${prefix}arahrezeki
+☍ ${prefix}peruntungan
+☍ ${prefix}weton
+☍ ${prefix}karakter
+☍ ${prefix}keberuntungan
+☍ ${prefix}memancing
+☍ ${prefix}masasubur
+☍ ${prefix}zodiak
+☍ ${prefix}shio`
 conn.sendMessage(m.chat, {
     text: anu,
     contextInfo: {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "Yamada Ryosuke",
+        body: "AdrianTzy",
         thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
         sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
@@ -4945,34 +4945,34 @@ let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it ea
    
 
 乂 *G R O U P  M E N U*
-◇ ‣ ${prefix}kick
-◇ ‣ ${prefix}add
-◇ ‣ ${prefix}culik
-◇ ‣ ${prefix}promote
-◇ ‣ ${prefix}demote
-◇ ‣ ${prefix}setname
-◇ ‣ ${prefix}setdesc
-◇ ‣ ${prefix}setppgc
-◇ ‣ ${prefix}tagall
-◇ ‣ ${prefix}hidetag
-◇ ‣ ${prefix}totag
-◇ ‣ ${prefix}antilink
-◇ ‣ ${prefix}antilinkyt
-◇ ‣ ${prefix}antilinktt
-◇ ‣ ${prefix}mutegc
-◇ ‣ ${prefix}ephemeral
-◇ ‣ ${prefix}group
-◇ ‣ ${prefix}editinfo
-◇ ‣ ${prefix}linkgc
-◇ ‣ ${prefix}revoke
-◇ ‣ ${prefix}liston`
+☍ ${prefix}kick
+☍ ${prefix}add
+☍ ${prefix}culik
+☍ ${prefix}promote
+☍ ${prefix}demote
+☍ ${prefix}setname
+☍ ${prefix}setdesc
+☍ ${prefix}setppgc
+☍ ${prefix}tagall
+☍ ${prefix}hidetag
+☍ ${prefix}totag
+☍ ${prefix}antilink
+☍ ${prefix}antilinkyt
+☍ ${prefix}antilinktt
+☍ ${prefix}mutegc
+☍ ${prefix}ephemeral
+☍ ${prefix}group
+☍ ${prefix}editinfo
+☍ ${prefix}linkgc
+☍ ${prefix}revoke
+☍ ${prefix}liston`
 conn.sendMessage(m.chat, {
     text: anu,
     contextInfo: {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "Yamada Ryosuke",
+        body: "AdrianTzy",
         thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
         sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
@@ -5003,21 +5003,21 @@ let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it ea
    
 
 乂 *D A T A  M E N U*
-◇ ‣ ${prefix}setcmd [reply sticker/pesan]
-◇ ‣ ${prefix}listcmd
-◇ ‣ ${prefix}delcmd [reply sticker/pesan]
-◇ ‣ ${prefix}lockcmd
-◇ ‣ ${prefix}addmsg
-◇ ‣ ${prefix}listmsg
-◇ ‣ ${prefix}getmsg
-◇ ‣ ${prefix}delmsg`
+☍ ${prefix}setcmd [reply sticker/pesan]
+☍ ${prefix}listcmd
+☍ ${prefix}delcmd [reply sticker/pesan]
+☍ ${prefix}lockcmd
+☍ ${prefix}addmsg
+☍ ${prefix}listmsg
+☍ ${prefix}getmsg
+☍ ${prefix}delmsg`
 conn.sendMessage(m.chat, {
     text: anu,
     contextInfo: {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "Yamada Ryosuke",
+        body: "AdrianTzy",
         thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
         sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
@@ -5048,37 +5048,37 @@ let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it ea
    
 
 乂 *R A M D O N  M E N U*
-◇ ‣ ${prefix}pokemon
-◇ ‣ ${prefix}rize
-◇ ‣ ${prefix}sagiri
-◇ ‣ ${prefix}aesthetic
-◇ ‣ ${prefix}anjing
-◇ ‣ ${prefix}blankpink
-◇ ‣ ${prefix}boneka
-◇ ‣ ${prefix}hekel
-◇ ‣ ${prefix}justina
-◇ ‣ ${prefix}kpop
-◇ ‣ ${prefix}kucing
-◇ ‣ ${prefix}mobil
-◇ ‣ ${prefix}motor
-◇ ‣ ${prefix}pubg
-◇ ‣ ${prefix}rose
-◇ ‣ ${prefix}ryujin
-◇ ‣ ${prefix}wallhp
-◇ ‣ ${prefix}cyberspace
-◇ ‣ ${prefix}mountain
-◇ ‣ ${prefix}programming
-◇ ‣ ${prefix}technology 
-◇ ‣ ${prefix}couple
-◇ ‣ ${prefix}wallpaper`
+☍ ${prefix}pokemon
+☍ ${prefix}rize
+☍ ${prefix}sagiri
+☍ ${prefix}aesthetic
+☍ ${prefix}anjing
+☍ ${prefix}blankpink
+☍ ${prefix}boneka
+☍ ${prefix}hekel
+☍ ${prefix}justina
+☍ ${prefix}kpop
+☍ ${prefix}kucing
+☍ ${prefix}mobil
+☍ ${prefix}motor
+☍ ${prefix}pubg
+☍ ${prefix}rose
+☍ ${prefix}ryujin
+☍ ${prefix}wallhp
+☍ ${prefix}cyberspace
+☍ ${prefix}mountain
+☍ ${prefix}programming
+☍ ${prefix}technology 
+☍ ${prefix}couple
+☍ ${prefix}wallpaper`
 conn.sendMessage(m.chat, {
     text: anu,
     contextInfo: {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "Yamada Ryosuke",
-        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
+        body: "AdrianTzy",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d",
         sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
@@ -5108,22 +5108,22 @@ let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it ea
    
 
 乂 *A S U P A N  M E N U*
-◇ ‣ ${prefix}cecan
-◇ ‣ ${prefix}china
-◇ ‣ ${prefix}cogan
-◇ ‣ ${prefix}indonesia
-◇ ‣ ${prefix}japan
-◇ ‣ ${prefix}korea
-◇ ‣ ${prefix}malaysia
-◇ ‣ ${prefix}thailand
-◇ ‣ ${prefix}vietnam`
+☍ ${prefix}cecan
+☍ ${prefix}china
+☍ ${prefix}cogan
+☍ ${prefix}indonesia
+☍ ${prefix}japan
+☍ ${prefix}korea
+☍ ${prefix}malaysia
+☍ ${prefix}thailand
+☍ ${prefix}vietnam`
 conn.sendMessage(m.chat, {
     text: anu,
     contextInfo: {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "Yamada Ryosuke",
+        body: "AdrianTzy",
         thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
         sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
@@ -5154,30 +5154,30 @@ let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it ea
    
 
 乂 *T O O L S  M E N U*
-◇ ‣ ${prefix}style
-◇ ‣ ${prefix}delete
-◇ ‣ ${prefix}quoted
-◇ ‣ ${prefix}ebinary
-◇ ‣ ${prefix}dbinary
-◇ ‣ ${prefix}wikimedia
-◇ ‣ ${prefix}bass
-◇ ‣ ${prefix}blown
-◇ ‣ ${prefix}deep
-◇ ‣ ${prefix}earrape
-◇ ‣ ${prefix}fast
-◇ ‣ ${prefix}fat
-◇ ‣ ${prefix}nightcore
-◇ ‣ ${prefix}reverse
-◇ ‣ ${prefix}robot
-◇ ‣ ${prefix}slow
-◇ ‣ ${prefix}tupai`
+☍ ${prefix}style
+☍ ${prefix}delete
+☍ ${prefix}quoted
+☍ ${prefix}ebinary
+☍ ${prefix}dbinary
+☍ ${prefix}wikimedia
+☍ ${prefix}bass
+☍ ${prefix}blown
+☍ ${prefix}deep
+☍ ${prefix}earrape
+☍ ${prefix}fast
+☍ ${prefix}fat
+☍ ${prefix}nightcore
+☍ ${prefix}reverse
+☍ ${prefix}robot
+☍ ${prefix}slow
+☍ ${prefix}tupai`
 conn.sendMessage(m.chat, {
     text: anu,
     contextInfo: {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "Yamada Ryosuke",
+        body: "AdrianTzy",
         thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
         sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
@@ -5208,21 +5208,21 @@ let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it ea
    
 
 乂 *C R E A T O R  I M A G E*
-◇ ‣ ${prefix}tololsertifikat
-◇ ‣ ${prefix}bucinsertifikat
-◇ ‣ ${prefix}pacarsertifikat
-◇ ‣ ${prefix}ttp
-◇ ‣ ${prefix}attp
-◇ ‣ ${prefix}attp2
-◇ ‣ ${prefix}qcimg
-◇ ‣ ${prefix}qc`
+☍ ${prefix}tololsertifikat
+☍ ${prefix}bucinsertifikat
+☍ ${prefix}pacarsertifikat
+☍ ${prefix}ttp
+☍ ${prefix}attp
+☍ ${prefix}attp2
+☍ ${prefix}qcimg
+☍ ${prefix}qc`
 conn.sendMessage(m.chat, {
     text: anu,
     contextInfo: {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "Yamada Ryosuke",
+        body: "AdrianTzy",
         thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
         sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
@@ -5253,23 +5253,23 @@ let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it eas
    
 
 乂 *I S L A M  M E N U*
-◇ ‣ ${prefix}asmaulhusna
-◇ ‣ ${prefix}alquranaudio
-◇ ‣ ${prefix}alquran
-◇ ‣ ${prefix}jadwalsolat
-◇ ‣ ${prefix}kisahnabi
-◇ ‣ ${prefix}listsurah
-◇ ‣ ${prefix}iqro
-◇ ‣ ${prefix}juzamma
-◇ ‣ ${prefix}hadist
-◇ ‣ ${prefix}tasfirsurah`
+☍ ${prefix}asmaulhusna
+☍ ${prefix}alquranaudio
+☍ ${prefix}alquran
+☍ ${prefix}jadwalsolat
+☍ ${prefix}kisahnabi
+☍ ${prefix}listsurah
+☍ ${prefix}iqro
+☍ ${prefix}juzamma
+☍ ${prefix}hadist
+☍ ${prefix}tasfirsurah`
 conn.sendMessage(m.chat, {
     text: anu,
     contextInfo: {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "Yamada Ryosuke",
+        body: "AdrianTzy",
         thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
         sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
@@ -5300,23 +5300,23 @@ let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it eas
    
 
 乂 *D O W N  M E N U*
-◇ ‣ ${prefix}ytplay
-◇ ‣ ${prefix}ytmp3
-◇ ‣ ${prefix}ytmp4
-◇ ‣ ${prefix}tiktok
-◇ ‣ ${prefix}tiktokaudio
-◇ ‣ ${prefix}igdl
-◇ ‣ ${prefix}igdl2
-◇ ‣ ${prefix}twtdl
-◇ ‣ ${prefix}fbdl
-◇ ‣ ${prefix}gitclone`
+☍ ${prefix}ytplay
+☍ ${prefix}ytmp3
+☍ ${prefix}ytmp4
+☍ ${prefix}tiktok
+☍ ${prefix}tiktokaudio
+☍ ${prefix}igdl
+☍ ${prefix}igdl2
+☍ ${prefix}twtdl
+☍ ${prefix}fbdl
+☍ ${prefix}gitclone`
 conn.sendMessage(m.chat, {
     text: anu,
     contextInfo: {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "Yamada Ryosuke",
+        body: "AdrianTzy",
         thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
         sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
@@ -5347,43 +5347,43 @@ let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it eas
    
 
 乂 *E P H O T O _1_*
-◇ ‣ ${prefix}wetglass
-◇ ‣ ${prefix}multicolor3d
-◇ ‣ ${prefix}watercolor
-◇ ‣ ${prefix}luxurygold
-◇ ‣ ${prefix}galaxywallpaper
-◇ ‣ ${prefix}lighttext
-◇ ‣ ${prefix}beautifulflower
-◇ ‣ ${prefix}puppycute
-◇ ‣ ${prefix}royaltext
-◇ ‣ ${prefix}heartshaped
-◇ ‣ ${prefix}birthdaycake
-◇ ‣ ${prefix}galaxystyle
-◇ ‣ ${prefix}hologram3d
-◇ ‣ ${prefix}greenneon
-◇ ‣ ${prefix}glossychrome
-◇ ‣ ${prefix}greenbush
-◇ ‣ ${prefix}metallogo
-◇ ‣ ${prefix}noeltext
-◇ ‣ ${prefix}glittergold
-◇ ‣ ${prefix}textcake
-◇ ‣ ${prefix}starsnight
-◇ ‣ ${prefix}wooden3d
-◇ ‣ ${prefix}textbyname
-◇ ‣ ${prefix}writegalacy
-◇ ‣ ${prefix}galaxybat
-◇ ‣ ${prefix}snow3d
-◇ ‣ ${prefix}birthdayday
-◇ ‣ ${prefix}goldplaybutton
-◇ ‣ ${prefix}silverplaybutton
-◇ ‣ ${prefix}freefire`
+☍ ${prefix}wetglass
+☍ ${prefix}multicolor3d
+☍ ${prefix}watercolor
+☍ ${prefix}luxurygold
+☍ ${prefix}galaxywallpaper
+☍ ${prefix}lighttext
+☍ ${prefix}beautifulflower
+☍ ${prefix}puppycute
+☍ ${prefix}royaltext
+☍ ${prefix}heartshaped
+☍ ${prefix}birthdaycake
+☍ ${prefix}galaxystyle
+☍ ${prefix}hologram3d
+☍ ${prefix}greenneon
+☍ ${prefix}glossychrome
+☍ ${prefix}greenbush
+☍ ${prefix}metallogo
+☍ ${prefix}noeltext
+☍ ${prefix}glittergold
+☍ ${prefix}textcake
+☍ ${prefix}starsnight
+☍ ${prefix}wooden3d
+☍ ${prefix}textbyname
+☍ ${prefix}writegalacy
+☍ ${prefix}galaxybat
+☍ ${prefix}snow3d
+☍ ${prefix}birthdayday
+☍ ${prefix}goldplaybutton
+☍ ${prefix}silverplaybutton
+☍ ${prefix}freefire`
 conn.sendMessage(m.chat, {
     text: anu,
     contextInfo: {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "Yamada Ryosuke",
+        body: "AdrianTzy",
         thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
         sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
@@ -5414,37 +5414,37 @@ let anu = `Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it ea
    
 
 乂 *P H O T O  O X Y _1_*
-◇ ‣ ${prefix}shadow
-◇ ‣ ${prefix}cup
-◇ ‣ ${prefix}cup1
-◇ ‣ ${prefix}romance
-◇ ‣ ${prefix}smoke
-◇ ‣ ${prefix}burnpaper
-◇ ‣ ${prefix}lovemessage
-◇ ‣ ${prefix}undergrass
-◇ ‣ ${prefix}love
-◇ ‣ ${prefix}coffe
-◇ ‣ ${prefix}woodheart
-◇ ‣ ${prefix}woodenboard
-◇ ‣ ${prefix}summer3d
-◇ ‣ ${prefix}wolfmetal
-◇ ‣ ${prefix}nature3d
-◇ ‣ ${prefix}underwater
-◇ ‣ ${prefix}golderrose
-◇ ‣ ${prefix}summernature
-◇ ‣ ${prefix}letterleaves
-◇ ‣ ${prefix}glowingneon
-◇ ‣ ${prefix}fallleaves
-◇ ‣ ${prefix}flamming
-◇ ‣ ${prefix}harrypotter
-◇ ‣ ${prefix}carvedwood`
+☍ ${prefix}shadow
+☍ ${prefix}cup
+☍ ${prefix}cup1
+☍ ${prefix}romance
+☍ ${prefix}smoke
+☍ ${prefix}burnpaper
+☍ ${prefix}lovemessage
+☍ ${prefix}undergrass
+☍ ${prefix}love
+☍ ${prefix}coffe
+☍ ${prefix}woodheart
+☍ ${prefix}woodenboard
+☍ ${prefix}summer3d
+☍ ${prefix}wolfmetal
+☍ ${prefix}nature3d
+☍ ${prefix}underwater
+☍ ${prefix}golderrose
+☍ ${prefix}summernature
+☍ ${prefix}letterleaves
+☍ ${prefix}glowingneon
+☍ ${prefix}fallleaves
+☍ ${prefix}flamming
+☍ ${prefix}harrypotter
+☍ ${prefix}carvedwood`
 conn.sendMessage(m.chat, {
     text: anu,
     contextInfo: {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "Yamada Ryosuke",
+        body: "AdrianTzy",
         thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
         sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
@@ -5475,45 +5475,45 @@ let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it eas
    
 
 乂 *T E X T  P R O _1_*
-◇ ‣ ${prefix}blackpink
-◇ ‣ ${prefix}neon
-◇ ‣ ${prefix}greenneon
-◇ ‣ ${prefix}advanceglow
-◇ ‣ ${prefix}futureneon
-◇ ‣ ${prefix}sandwriting
-◇ ‣ ${prefix}sandsummer
-◇ ‣ ${prefix}sandengraved
-◇ ‣ ${prefix}metaldark
-◇ ‣ ${prefix}neonlight
-◇ ‣ ${prefix}holographic
-◇ ‣ ${prefix}text1917
-◇ ‣ ${prefix}minion
-◇ ‣ ${prefix}deluxesilver
-◇ ‣ ${prefix}newyearcard
-◇ ‣ ${prefix}bloodfrosted
-◇ ‣ ${prefix}halloween
-◇ ‣ ${prefix}jokerlogo
-◇ ‣ ${prefix}fireworksparkle
-◇ ‣ ${prefix}natureleaves
-◇ ‣ ${prefix}bokeh
-◇ ‣ ${prefix}toxic
-◇ ‣ ${prefix}strawberry
-◇ ‣ ${prefix}box3d
-◇ ‣ ${prefix}roadwarning
-◇ ‣ ${prefix}breakwall
-◇ ‣ ${prefix}icecold
-◇ ‣ ${prefix}luxury
-◇ ‣ ${prefix}cloud
-◇ ‣ ${prefix}summersand
-◇ ‣ ${prefix}horrorblood
-◇ ‣ ${prefix}thunder`
+☍ ${prefix}blackpink
+☍ ${prefix}neon
+☍ ${prefix}greenneon
+☍ ${prefix}advanceglow
+☍ ${prefix}futureneon
+☍ ${prefix}sandwriting
+☍ ${prefix}sandsummer
+☍ ${prefix}sandengraved
+☍ ${prefix}metaldark
+☍ ${prefix}neonlight
+☍ ${prefix}holographic
+☍ ${prefix}text1917
+☍ ${prefix}minion
+☍ ${prefix}deluxesilver
+☍ ${prefix}newyearcard
+☍ ${prefix}bloodfrosted
+☍ ${prefix}halloween
+☍ ${prefix}jokerlogo
+☍ ${prefix}fireworksparkle
+☍ ${prefix}natureleaves
+☍ ${prefix}bokeh
+☍ ${prefix}toxic
+☍ ${prefix}strawberry
+☍ ${prefix}box3d
+☍ ${prefix}roadwarning
+☍ ${prefix}breakwall
+☍ ${prefix}icecold
+☍ ${prefix}luxury
+☍ ${prefix}cloud
+☍ ${prefix}summersand
+☍ ${prefix}horrorblood
+☍ ${prefix}thunder`
 conn.sendMessage(m.chat, {
     text: anu,
     contextInfo: {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "Yamada Ryosuke",
+        body: "AdrianTzy",
         thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
         sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
@@ -5544,23 +5544,23 @@ let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it eas
    
 
 乂 *T E X T  P R O _2_*
-◇ ‣ ${prefix}pornhub
-◇ ‣ ${prefix}glitch
-◇ ‣ ${prefix}avenger
-◇ ‣ ${prefix}space
-◇ ‣ ${prefix}ninjalogo
-◇ ‣ ${prefix}marvelstudio
-◇ ‣ ${prefix}lionlogo
-◇ ‣ ${prefix}wolflogo
-◇ ‣ ${prefix}steel3d
-◇ ‣ ${prefix}wallgravity`
+☍ ${prefix}pornhub
+☍ ${prefix}glitch
+☍ ${prefix}avenger
+☍ ${prefix}space
+☍ ${prefix}ninjalogo
+☍ ${prefix}marvelstudio
+☍ ${prefix}lionlogo
+☍ ${prefix}wolflogo
+☍ ${prefix}steel3d
+☍ ${prefix}wallgravity`
 conn.sendMessage(m.chat, {
     text: anu,
     contextInfo: {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "Yamada Ryosuke",
+        body: "AdrianTzy",
         thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
         sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
@@ -5591,10 +5591,10 @@ let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it eas
    
 
 乂 *A I  M E N U*
-◇ ‣ ${prefix}ai
-◇ ‣ ${prefix}ai2
-◇ ‣ ${prefix}aiimage
-◇ ‣ ${prefix}diffusion
+☍ ${prefix}ai
+☍ ${prefix}ai2
+☍ ${prefix}aiimage
+☍ ${prefix}diffusion
 `
 conn.sendMessage(m.chat, {
     text: anu,
@@ -5602,7 +5602,7 @@ conn.sendMessage(m.chat, {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "Yamada Ryosuke",
+        body: "AdrianTzy",
         thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
         sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
@@ -5633,34 +5633,34 @@ let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it eas
    
 
 乂 *I N F O R M A T I O N*
-◇ ‣ ${prefix}kbbi
-◇ ‣ ${prefix}brainly
-◇ ‣ ${prefix}roboguru
-◇ ‣ ${prefix}jarak
-◇ ‣ ${prefix}wikipedia
-◇ ‣ ${prefix}translate
-◇ ‣ ${prefix}jadwaltv
-◇ ‣ ${prefix}jadwaltvnow
-◇ ‣ ${prefix}jadwalbola
-◇ ‣ ${prefix}newsinfo
-◇ ‣ ${prefix}cnnindonesia
-◇ ‣ ${prefix}cnnnasional
-◇ ‣ ${prefix}cnninternasional
-◇ ‣ ${prefix}infogempa
-◇ ‣ ${prefix}infocuaca
-◇ ‣ ${prefix}lirik
-◇ ‣ ${prefix}kodepos
-◇ ‣ ${prefix}infochat
-◇ ‣ ${prefix}google
-◇ ‣ ${prefix}gimage
-◇ ‣ ${prefix}pinterest`
+☍ ${prefix}kbbi
+☍ ${prefix}brainly
+☍ ${prefix}roboguru
+☍ ${prefix}jarak
+☍ ${prefix}wikipedia
+☍ ${prefix}translate
+☍ ${prefix}jadwaltv
+☍ ${prefix}jadwaltvnow
+☍ ${prefix}jadwalbola
+☍ ${prefix}newsinfo
+☍ ${prefix}cnnindonesia
+☍ ${prefix}cnnnasional
+☍ ${prefix}cnninternasional
+☍ ${prefix}infogempa
+☍ ${prefix}infocuaca
+☍ ${prefix}lirik
+☍ ${prefix}kodepos
+☍ ${prefix}infochat
+☍ ${prefix}google
+☍ ${prefix}gimage
+☍ ${prefix}pinterest`
 conn.sendMessage(m.chat, {
     text: anu,
     contextInfo: {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "Yamada Ryosuke",
+        body: "AdrianTzy",
         thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
         sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
@@ -5691,57 +5691,57 @@ let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it eas
    
 
 乂 *A N I M E  M E N U*
-◇ ‣ ${prefix}genshin
-◇ ‣ ${prefix}akira
-◇ ‣ ${prefix}akiyama
-◇ ‣ ${prefix}ana
-◇ ‣ ${prefix}asuna
-◇ ‣ ${prefix}ayuzawa
-◇ ‣ ${prefix}boruto
-◇ ‣ ${prefix}chitoge
-◇ ‣ ${prefix}deidara
-◇ ‣ ${prefix}doraemon
-◇ ‣ ${prefix}elaina
-◇ ‣ ${prefix}emilia
-◇ ‣ ${prefix}erza
-◇ ‣ ${prefix}gremory
-◇ ‣ ${prefix}hestia
-◇ ‣ ${prefix}hinata
-◇ ‣ ${prefix}inori
-◇ ‣ ${prefix}isuzu
-◇ ‣ ${prefix}itachi
-◇ ‣ ${prefix}itori
-◇ ‣ ${prefix}kaga
-◇ ‣ ${prefix}kagura
-◇ ‣ ${prefix}kakasih
-◇ ‣ ${prefix}kaori
-◇ ‣ ${prefix}keneki
-◇ ‣ ${prefix}kotori
-◇ ‣ ${prefix}kurumi
-◇ ‣ ${prefix}loli
-◇ ‣ ${prefix}madara
-◇ ‣ ${prefix}mikasa
-◇ ‣ ${prefix}miku
-◇ ‣ ${prefix}minato
-◇ ‣ ${prefix}naruto
-◇ ‣ ${prefix}nezuko
-◇ ‣ ${prefix}onepiece
-◇ ‣ ${prefix}sakura
-◇ ‣ ${prefix}sasuke
-◇ ‣ ${prefix}shina
-◇ ‣ ${prefix}shinka
-◇ ‣ ${prefix}shizuka
-◇ ‣ ${prefix}shota
-◇ ‣ ${prefix}toukachan
-◇ ‣ ${prefix}tsunade
-◇ ‣ ${prefix}yuki`
+☍ ${prefix}genshin
+☍ ${prefix}akira
+☍ ${prefix}akiyama
+☍ ${prefix}ana
+☍ ${prefix}asuna
+☍ ${prefix}ayuzawa
+☍ ${prefix}boruto
+☍ ${prefix}chitoge
+☍ ${prefix}deidara
+☍ ${prefix}doraemon
+☍ ${prefix}elaina
+☍ ${prefix}emilia
+☍ ${prefix}erza
+☍ ${prefix}gremory
+☍ ${prefix}hestia
+☍ ${prefix}hinata
+☍ ${prefix}inori
+☍ ${prefix}isuzu
+☍ ${prefix}itachi
+☍ ${prefix}itori
+☍ ${prefix}kaga
+☍ ${prefix}kagura
+☍ ${prefix}kakasih
+☍ ${prefix}kaori
+☍ ${prefix}keneki
+☍ ${prefix}kotori
+☍ ${prefix}kurumi
+☍ ${prefix}loli
+☍ ${prefix}madara
+☍ ${prefix}mikasa
+☍ ${prefix}miku
+☍ ${prefix}minato
+☍ ${prefix}naruto
+☍ ${prefix}nezuko
+☍ ${prefix}onepiece
+☍ ${prefix}sakura
+☍ ${prefix}sasuke
+☍ ${prefix}shina
+☍ ${prefix}shinka
+☍ ${prefix}shizuka
+☍ ${prefix}shota
+☍ ${prefix}toukachan
+☍ ${prefix}tsunade
+☍ ${prefix}yuki`
 conn.sendMessage(m.chat, {
     text: anu,
     contextInfo: {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "Yamada Ryosuke",
+        body: "AdrianTzy",
         thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
         sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
@@ -5772,25 +5772,25 @@ let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it eas
    
 
 乂 *C O N V E R T  M E N U*
-◇ ‣ ${prefix}stiker
-◇ ‣ ${prefix}swm
-◇ ‣ ${prefix}smeme
-◇ ‣ ${prefix}emojimix
-◇ ‣ ${prefix}emojimix2
-◇ ‣ ${prefix}toimage
-◇ ‣ ${prefix}tomp4
-◇ ‣ ${prefix}toaudio
-◇ ‣ ${prefix}tomp3
-◇ ‣ ${prefix}tovn
-◇ ‣ ${prefix}togif
-◇ ‣ ${prefix}tourl`
+☍ ${prefix}stiker
+☍ ${prefix}swm
+☍ ${prefix}smeme
+☍ ${prefix}emojimix
+☍ ${prefix}emojimix2
+☍ ${prefix}toimage
+☍ ${prefix}tomp4
+☍ ${prefix}toaudio
+☍ ${prefix}tomp3
+☍ ${prefix}tovn
+☍ ${prefix}togif
+☍ ${prefix}tourl`
 conn.sendMessage(m.chat, {
     text: anu,
     contextInfo: {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "Yamada Ryosuke",
+        body: "AdrianTzy",
         thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
         sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
@@ -5821,19 +5821,19 @@ let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it eas
    
 
 乂 *S T A L K E R  M E N U*
-◇ ‣ ${prefix}igstalk
-◇ ‣ ${prefix}ttstalk
-◇ ‣ ${prefix}mlstalk
-◇ ‣ ${prefix}ghstalk
-◇ ‣ ${prefix}twstalk`
+☍ ${prefix}igstalk
+☍ ${prefix}ttstalk
+☍ ${prefix}mlstalk
+☍ ${prefix}ghstalk
+☍ ${prefix}twstalk`
 conn.sendMessage(m.chat, {
     text: anu,
     contextInfo: {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "Yamada Ryosuke",
-        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg,
+        body: "AdrianTzy",
+        thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
         sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,
         renderLargerThumbnail: true
@@ -5863,16 +5863,16 @@ let anu =`Hello ${pushname}\nI Am ${namabot} a whatsapp bot that can make it eas
    
 
 乂 *M E M E  M E N U*
-◇ ‣ ${prefix}darkjoke
-◇ ‣ ${prefix}ramdommeme
-◇ ‣ ${prefix}memeindo`
+☍ ${prefix}darkjoke
+☍ ${prefix}ramdommeme
+☍ ${prefix}memeindo`
 conn.sendMessage(m.chat, {
     text: anu,
     contextInfo: {
       externalAdReply: {
         showAdAttribution: true, 
         title: `${ucapanWaktu} ${pushname}`,
-        body: "Yamada Ryosuke",
+        body: "AdrianTzy",
         thumbnailUrl: "https://telegra.ph/file/dd61c9986e9d11562958d.jpg",
         sourceUrl: "https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE",
         mediaType: 1,

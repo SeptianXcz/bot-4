@@ -11,16 +11,16 @@ global.apikey = 'APOLOZEA' // https://api.lolhuman.xyz
 global.rosekey = 'cba86fac49e37d63f9bd4561' // https://api.itsrose.site
 
 //—————「 Set Nama Bot & Own 」—————//
-global.namabot = 'Yamada'
-global.namaowner = 'Yamada Ryosuke'
+global.namabot = 'Yamada-Ryosuke'
+global.namaowner = 'Yamada'
 
 //—————「 Setting Owner 」—————//
-global.owner = '48459070956'
-global.nomerowner = ["48459070956"]
-global.premium = ['48459070956']
+global.owner = '+48459070956'
+global.nomerowner = ["+48459070956"]
+global.premium = ['+48459070956']
 
 //—————「 Set Wm 」—————//
-global.packname = 'Yamadq Ryosuke'
+global.packname = 'Yamada-Ryosuke'
 global.author = 'V1.0.0.1'
 global.isLink = 'https://chat.whatsapp.com/HjPoA3EZ2mc22ngHjZJLbE'
 global.prefa = ['', '.']
